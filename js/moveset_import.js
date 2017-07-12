@@ -133,7 +133,7 @@ function addToDex(poke){
 	if(SETDEX_XY[poke.name] == undefined) SETDEX_XY[poke.name] = new Object();
 	if(SETDEX_BW[poke.name] == undefined) SETDEX_BW[poke.name] = new Object();
 	if(SETDEX_DPP[poke.name] == undefined) SETDEX_DPP[poke.name] = new Object();
-	if(SETDEX_ADV[poke.name] == undefined) SETDEX_ADV[poke.name] = new Object();
+	if(SETDEX_E_FRONTIER[poke.name] == undefined) SETDEX_E_FRONTIER[poke.name] = new Object();
 	if(SETDEX_GSC[poke.name] == undefined) SETDEX_GSC[poke.name] = new Object();
 	if(SETDEX_RBY[poke.name] == undefined) SETDEX_RBY[poke.name] = new Object();
 
@@ -177,8 +177,8 @@ function updateDex(customsets){
 			SETDEX_BW[pokemon][moveset] = customsets[pokemon][moveset];
 			if(!SETDEX_DPP[pokemon]) SETDEX_DPP[pokemon] = {};
 			SETDEX_DPP[pokemon][moveset] = customsets[pokemon][moveset];
-			if(!SETDEX_ADV[pokemon]) SETDEX_ADV[pokemon] = {};
-			SETDEX_ADV[pokemon][moveset] = customsets[pokemon][moveset];
+			if(!SETDEX_E_FRONTIER[pokemon]) SETDEX_E_FRONTIER[pokemon] = {};
+			SETDEX_E_FRONTIER[pokemon][moveset] = customsets[pokemon][moveset];
 			if(!SETDEX_GSC[pokemon]) SETDEX_GSC[pokemon] = {};
 			SETDEX_GSC[pokemon][moveset] = customsets[pokemon][moveset];
 			if(!SETDEX_RBY[pokemon]) SETDEX_RBY[pokemon] = {};

@@ -1,4 +1,4 @@
-﻿function CALCULATE_ALL_MOVES_ADV(p1, p2, field) {
+﻿function CALCULATE_ALL_MOVES_ADV(p1, p2, p3, p4, field) {
     checkAirLock(p1, field);
     checkAirLock(p2, field);
     checkForecast(p1, field.getWeather());
@@ -7,10 +7,14 @@
     checkIntimidate(p2, p1);
     var side1 = field.getSide(1);
     var side2 = field.getSide(0);
-    var results = [[],[]];
+    var results = [[],[],[],[],[],[]];
     for (var i = 0; i < 4; i++) {
         results[0][i] = CALCULATE_DAMAGE_ADV(p1, p2, p1.moves[i], side1);
         results[1][i] = CALCULATE_DAMAGE_ADV(p2, p1, p2.moves[i], side2);
+        results[2][i] = CALCULATE_DAMAGE_ADV(p3, p2, p3.moves[i], side1);
+        results[3][i] = CALCULATE_DAMAGE_ADV(p2, p3, p2.moves[i], side2);
+        results[4][i] = CALCULATE_DAMAGE_ADV(p4, p2, p4.moves[i], side1);
+        results[5][i] = CALCULATE_DAMAGE_ADV(p2, p4, p2.moves[i], side2);
     }
     return results;
 }

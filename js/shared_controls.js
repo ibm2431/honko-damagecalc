@@ -290,6 +290,10 @@ $(".set-selector").change(function() {
         if (pokemonName in setdex && setName in setdex[pokemonName]) {
             var set = setdex[pokemonName][setName];
             pokeObj.find(".level").val(set.level);
+            level_cap = $("#level-cap").val();
+            if (level_cap >= 0) {
+              pokeObj.find(".level").val(level_cap);
+            }
             pokeObj.find(".hp .evs").val((set.evs && typeof set.evs.hp !== "undefined") ? set.evs.hp : 0);
             pokeObj.find(".hp .ivs").val((set.ivs && typeof set.ivs.hp !== "undefined") ? set.ivs.hp : 31);
             pokeObj.find(".hp .dvs").val((set.dvs && typeof set.dvs.hp !== "undefined") ? set.dvs.hp : 15);
@@ -560,7 +564,7 @@ $(".gen").change(function () {
             break;
         case 3:
             pokedex = POKEDEX_ADV;
-            setdex = SETDEX_ADV;
+            setdex = SETDEX_E_FRONTIER;
             typeChart = TYPE_CHART_GSC;
             moves = MOVES_ADV;
             items = ITEMS_ADV;
@@ -602,13 +606,24 @@ $(".gen").change(function () {
             calcHP = CALC_HP_ADV;
             calcStat = CALC_STAT_ADV;
             break;
-        default:
+        case 7:
             pokedex = POKEDEX_SM;
             setdex = SETDEX_SM;
             typeChart = TYPE_CHART_XY;
             moves = MOVES_SM;
             items = ITEMS_SM;
             abilities = ABILITIES_SM;
+            STATS = STATS_GSC;
+            calcHP = CALC_HP_ADV;
+            calcStat = CALC_STAT_ADV;
+            break;
+        default:
+            pokedex = POKEDEX_ADV;
+            setdex = SETDEX_E_FRONTIER;
+            typeChart = TYPE_CHART_GSC;
+            moves = MOVES_ADV;
+            items = ITEMS_ADV;
+            abilities = ABILITIES_ADV;
             STATS = STATS_GSC;
             calcHP = CALC_HP_ADV;
             calcStat = CALC_STAT_ADV;
@@ -679,20 +694,25 @@ function getSetOptions() {
             var setNames = Object.keys(setdex[pokeName]);
             for (var j = 0; j < setNames.length; j++) {
                 var setName = setNames[j];
+                var tiers = setdex[pokeName][setName]['tiers'];
+                if (!(tiers)) {
+                  tiers = "None";
+                }
                 setOptions.push({
                     pokemon: pokeName,
                     set: setName,
                     text: pokeName + " (" + setName + ")",
-                    id: pokeName + " (" + setName + ")"
+                    id: pokeName + " (" + setName + ")",
+                    tiers: tiers
                 });
             }
         }
-        setOptions.push({
-            pokemon: pokeName,
-            set: "Blank Set",
-            text: pokeName + " (Blank Set)",
-            id: pokeName + " (Blank Set)"
-        });
+        //setOptions.push({
+            //pokemon: pokeName,
+            //set: "Blank Set",
+            //text: pokeName + " (Blank Set)",
+            //id: pokeName + " (Blank Set)"
+        //});
     }
     return setOptions;
 }
@@ -772,8 +792,8 @@ function getTerrainEffects() {
 }
 
 $(document).ready(function() {
-    $("#gen7").prop("checked", true);
-    $("#gen7").change();
+    $("#gen3").prop("checked", true);
+    $("#gen3").change();
     $("#percentage").prop("checked", true);
     $("#percentage").change();
 

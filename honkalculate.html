@@ -5,27 +5,15 @@
     <meta charset="UTF-8" />
     <title>A Pok&eacute;mon Calculator</title>
     <link type="text/css" rel="stylesheet" href="./bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.4/css/jquery.dataTables.min.css" />
-    <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/colvis/1.1.1/css/dataTables.colVis.css" />
+    <link type="text/css" rel="stylesheet" href="./dataTables.css" />
     <link type="text/css" rel="stylesheet" href="./select2/select2.css" />
     <link type="text/css" rel="stylesheet" href="./shared_controls.css?v2" />
 </head>
 
 <body>
 
-<div class="header"><div class="header-inner">
-    <ul class="nav">
-        <li><a class="button nav-first" href="/"><img src="./pokemonshowdownbeta.png" alt="Pok&eacute;mon Showdown! (beta)" /> Home</a></li>
-        <li><a class="button" href="/dex/">Pok&eacute;dex</a></li>
-        <li><a class="button" href="//replay.pokemonshowdown.com/">Replays</a></li>
-        <li><a class="button" href="/ladder/">Ladder</a></li>
-        <li><a class="button nav-last" href="/forums/">Forum</a></li>
-    </ul>
-    <ul class="nav nav-play">
-        <li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
-    </ul>
-    <div style="clear:both"></div>
-</div></div>
+<div class="frontier-honkalculate-wrapper">
+
 <div class="wrapper">
 
     <div>
@@ -42,7 +30,7 @@
         <span title="Select the calculator's mode of function.">
             <input class="mode visually-hidden" type="radio" name="mode" id="all-vs-one" /><label class="btn btn-wide btn-right right" for="all-vs-one">All vs One</label>
             <input class="mode visually-hidden" type="radio" name="mode" id="one-vs-all" /><label class="btn btn-wide btn-mid right" for="one-vs-all">One vs All</label>
-            <input class="mode visually-hidden" type="radio" name="mode" id="one-vs-one" /><label class="btn btn-wide btn-left right" for="one-vs-one">One vs One</label>
+            <input class="mode visually-hidden" type="radio" name="mode" id="one-vs-one" /><label class="btn btn-xwide btn-left right" for="one-vs-one">Three vs One</label>
         </span>
     </div>
     <hr />
@@ -52,12 +40,12 @@
             <input class="visually-hidden" type="radio" name="tier" id="VGC17" /><label class="btn btn-left gen-specific g7" for="VGC17">VGC 17</label>
             <input class="visually-hidden" type="radio" name="tier" id="Doubles" /><label class="btn btn-mid gen-specific g5 g6 g7" for="Doubles">Doubles</label>
             <input class="visually-hidden" type="radio" name="tier" id="LC" /><label class="btn btn-mid gen-specific g4 g5 g6 g7" for="LC">LC</label>
-            <input class="visually-hidden" type="checkbox" name="tier" id="PU" /><label class="btn btn-mid gen-specific g6 g7" for="PU">PU</label>
-            <input class="visually-hidden" type="checkbox" name="tier" id="NU" /><label class="btn btn-mid gen-specific g3 g4 g5 g6 g7" for="NU">NU</label>
-            <input class="visually-hidden" type="checkbox" name="tier" id="RU" /><label class="btn btn-mid gen-specific g5 g6 g7" for="RU">RU</label>
-            <input class="visually-hidden" type="checkbox" name="tier" id="UU" /><label class="btn btn-mid" for="UU">UU</label>
-            <input class="visually-hidden" type="checkbox" name="tier" id="OU" /><label class="btn btn-mid" for="OU">OU</label>
-            <input class="visually-hidden" type="checkbox" name="tier" id="Uber" /><label class="btn btn-right" for="Uber">Uber</label>
+            <input class="visually-hidden" type="checkbox" name="tier" id="FCT0" /><label class="btn btn-mid" for="FCT0">FCT LC</label>
+            <input class="visually-hidden" type="checkbox" name="tier" id="FCT1" /><label class="btn btn-mid" for="FCT1">FCT R1</label>
+            <input class="visually-hidden" type="checkbox" name="tier" id="FCT2" /><label class="btn btn-mid" for="FCT2">FCT R2</label>
+            <input class="visually-hidden" type="checkbox" name="tier" id="FCT3" /><label class="btn btn-mid" for="FCT3">FCT R3</label>
+            <input class="visually-hidden" type="checkbox" name="tier" id="FCT4" /><label class="btn btn-mid" for="FCT4">FCT R4</label>
+            <input class="visually-hidden" type="checkbox" name="tier" id="FCT5" /><label class="btn btn-mid" for="FCT5">FCT R5+</label>
     </span>
     </div>
 
@@ -661,6 +649,7 @@
     <div>
         <fieldset class="panel holder-0">
             <legend class="panel-heading panel-title">Damage Results</legend>
+            Points: <span id="vsAllPoints">0</span> <br/>
             <table class="hide display" id="holder-2">
                 <thead>
                     <tr>
@@ -680,9 +669,9 @@
     </div>
     <!-- jquery.dataTables is incompatible with newer versions of jQuery -->
     <script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script> <!-- to be replaced (probably) -->
-    <script type="text/javascript" src="https://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/colvis/1.1.1/js/dataTables.colVis.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.js"></script> <!-- to be replaced (probably) -->
+    <script type="text/javascript" src="./js/dataTables.js"></script>
+    <script type="text/javascript" src="./js/dataTables-colVis.js"></script>
     <script type="text/javascript" src="./js/lodash.min.js"></script>
     <script type="text/javascript" src="./select2/select2.min.js"></script>
     <script type="text/javascript" src="./js/data/pokedex.js"></script>
@@ -690,7 +679,7 @@
     <script type="text/javascript" src="./js/data/setdex_xy.js"></script>
     <script type="text/javascript" src="./js/data/setdex_bw.js"></script>
     <script type="text/javascript" src="./js/data/setdex_dpp.js"></script>
-    <script type="text/javascript" src="./js/data/setdex_rse.js"></script>
+    <script type="text/javascript" src="./js/data/setdex_e_frontier.js"></script>
     <script type="text/javascript" src="./js/data/setdex_gsc.js"></script>
     <script type="text/javascript" src="./js/data/setdex_rby.js"></script>
     <script type="text/javascript" src="./js/data/stat_data.js"></script>
@@ -707,8 +696,7 @@
     <script type="text/javascript" src="./js/damage_gsc.js"></script>
     <script type="text/javascript" src="./js/damage_rby.js"></script>
     <script type="text/javascript" src="./js/ko_chance.js"></script>
-
-    <div style="clear:both;padding:20px;text-align:right"><p><a href="https://github.com/Zarel/honko-damagecalc" target="_blank">GitHub repository for the damage calculator</a></p></div>
+</div>
 
 </body>
 

@@ -63,15 +63,33 @@ $.fn.dataTableExt.oSort['damage48-desc'] = function (a, b) {
 }
 
 function calculate() {
+    var highestKO = '';
+    var points = 0;
     var attacker, defender, setName, setTier;
     var selectedTiers = getSelectedTiers();
     var setOptions = getSetOptions();
     var dataSet = [];
+    var allTiers = false;
+    var inSelectedTiers = false;
+    if (_.contains(selectedTiers, "All")) {
+      allTiers = true;
+    }
     for (var i = 0; i < setOptions.length; i++) {
         if (setOptions[i].id && typeof setOptions[i].id !== "undefined") {
             setName = setOptions[i].id.substring(setOptions[i].id.indexOf("(") + 1, setOptions[i].id.lastIndexOf(")"));
-            setTier = setName.substring(0, setName.indexOf(" "));
-            if (_.contains(selectedTiers, setTier)) {
+            inSelectedTiers = false;
+            if (allTiers) {
+              inSelectedTiers = true;
+            }
+            else {
+              var setTiers = setOptions[i].tiers;
+              for (var j = 0; j < setTiers.length; j++) {
+                if (_.contains(selectedTiers, setTiers[j])) {
+                  inSelectedTiers = true;
+                }
+              }
+            }
+            if (inSelectedTiers) {
                 attacker = (mode === "one-vs-all") ? new Pokemon($("#p1")) : new Pokemon(setOptions[i].id);
                 defender = (mode === "one-vs-all") ? new Pokemon(setOptions[i].id) : new Pokemon($("#p1"));
                 var field = new Field();
@@ -99,6 +117,7 @@ function calculate() {
                         data.push( minPercentage + " - " + maxPercentage + "%" );
                         data.push( minPixels + " - " + maxPixels + "px" );
                         data.push( result.koChanceText );
+                        highestKO = result.koChanceText;
                     }
                 }
                 data.push( (mode === "one-vs-all") ? defender.type1 : attacker.type1 );
@@ -106,10 +125,38 @@ function calculate() {
                 data.push( (mode === "one-vs-all") ? defender.ability : attacker.ability );
                 data.push( (mode === "one-vs-all") ? defender.item : attacker.item );
                 dataSet.push(data);
+                
+                // Calculate points for how well we do against all pokemon
+                if (mode === "one-vs-all") {
+                  if (_.contains(highestKO, "guaranteed OHKO")) {
+                    points = points + 2;
+                  }
+                  else if ((_.contains(highestKO, "chance to OHKO")) || (_.contains(highestKO, "guaranteed 2HKO"))) {
+                    points = points + 1;
+                  }
+                  else if (!((_.contains(highestKO, "chance to 2HKO")) || (_.contains(highestKO, "guaranteed 3HKO")) ||
+                           (_.contains(highestKO, "chance to 3HKO")) || (_.contains(highestKO, "guaranteed 4HKO")))) {
+                    points = points - 1;
+                  }
+                }
+                else { // mode is all-vs-one
+                  if (_.contains(highestKO, "guaranteed OHKO") || _.contains(highestKO, "chance to OHKO")) {
+                    points = points - 2;
+                  }
+                  else if (_.contains(highestKO, "guaranteed 2HKO") || _.contains(highestKO, "chance to 2HKO")) {
+                    points = points - 1;
+                  }
+                  else if (!((_.contains(highestKO, "chance to 3HKO")) || (_.contains(highestKO, "guaranteed 3HKO")) ||
+                           (_.contains(highestKO, "chance to 4HKO")) || (_.contains(highestKO, "guaranteed 4HKO")))) {
+                    points = points + 1;
+                  }
+                }
+                
             }
         }
     }
     table.rows.add(dataSet).draw();
+    $("#vsAllPoints").text(points);
 }
 
 function getSelectedTiers() {
@@ -233,10 +280,23 @@ function placeBsBtn() {
 }
 
 $(".mode").change(function() {
-    if ( $("#one-vs-one").prop("checked") ) {
-        window.location.replace( "index.html" );
-  } else {
-        window.location.replace( "honkalculate.html?mode=" + $(this).attr("id") );
+
+  if ( $("#one-vs-one").prop("checked") ) {
+    window.location.replace( "index.html" );
+  }
+  else {
+    if ( $("#one-vs-all").prop("checked") ) {
+      $("#one-vs-all").prop("checked", false);
+      $("#all-vs-one").prop("checked", true);
+      mode = "all-vs-one";
+    }
+    else {
+      $("#one-vs-all").prop("checked", true);
+      $("#all-vs-one").prop("checked", false);
+      mode = "one-vs-all";
+    }
+    $("#one-vs-all").change();
+    $("#all-vs-one").change();
   }
 });
 

@@ -130,17 +130,43 @@ a img {
 /* general page styling */
 html, body {
     font: 10pt Verdana, sans-serif;
-    background-color: white;
     color: black;
     margin: 0;
     padding: 0;
     min-width: 100em;
+    background-image: url('Battle_Frontier_E.png');
+    background-position: -120px -20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
 }
 .wrapper {
     padding: 0 1em;
     max-width: 1247px;
     margin: 0 auto;
+    
 }
+.frontier-wrapper {
+  width: 80%;
+  background-color: rgba(255, 255, 255, .9);
+  overflow: auto;
+  margin: 0 auto;
+  padding: 3em 0 3em 0;
+}
+
+.frontier-honkalculate-wrapper {
+  width: 93%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, .9);
+  overflow: auto;
+  margin: 0 auto 0 auto;
+  padding: 0;
+}
+
+.frontier-honkalculate-wrapper > .wrapper {
+  padding: 3em 1em;
+}
+
 div.wrapper > div > span {
     padding-right: 5px;
 }
@@ -290,18 +316,29 @@ th {
 }
 .move-result-subgroup {
     float: left;
-    width: 50%;
+    width: 100%;
 }
 .move-result-group .btn {
     margin-right: 1em;
 }
 .main-result-group {
     margin: 2em 0 1em;
+    clear: both;
 }
 .result-move-header {
     font-size: 0.8em;
     font-weight: bold;
     margin: 0 0 5px;
+}
+
+.pokeHeaderL {
+  width: 45%;
+  float: left;
+}
+
+.pokeHeaderR {
+  width: 45%;
+  float: right;
 }
 
 /* pokemon info */
@@ -360,6 +397,15 @@ select.toxic-counter {
     padding: 3px 3px;
 }
 
+.pokeL {
+  float: left;
+  width: 34%;
+}
+
+.pokeR {
+  float: right;
+}
+
 /* field info */
 .field-info .btn {
     font-size: 0.8em;
@@ -399,4 +445,8 @@ select.toxic-counter {
     min-width: 27em;
     min-height: 10em;
     resize: vertical;
+}
+
+.ColVis_MasterButton {
+  display: none;
 }

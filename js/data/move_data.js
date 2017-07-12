@@ -4,8 +4,17 @@ var MOVES_RBY = {
         type: 'Normal',
         category: 'Physical'
     },
+    'Absorb': {
+        bp: 20,
+        type: 'Grass',
+        category: 'Special'
+    },
     'Acid': {
         bp: 40,
+        type: 'Poison'
+    },
+    'Acid Armor': {
+        bp: 0,
         type: 'Poison'
     },
     'Agility': {
@@ -25,6 +34,16 @@ var MOVES_RBY = {
     'Barrier': {
         bp: 0,
         type: 'Psychic'
+    },
+    'Barrage': {
+        bp: 15,
+        type: 'Normal',
+        category: 'Physical',
+        isMultiHit: true
+    },
+    'Bide': {
+        bp: 0,
+        type: 'Normal'
     },
     'Bind': {
         bp: 15,
@@ -50,13 +69,27 @@ var MOVES_RBY = {
         category: 'Physical',
         hasSecondaryEffect: true
     },
+    'Bonemerang': {
+        bp: 50,
+        type: 'Normal',
+        category: 'Physical',
+        isMultiHit: true
+    },
+    'Bubble': {
+        bp: 40,
+        type: 'Water',
+        category: 'Special'
+    },
     'Bubble Beam': {
         bp: 65,
-        type: 'Water'
+        type: 'Water',
+        category: 'Special'
     },
     'Clamp': {
         bp: 35,
-        type: 'Water'
+        type: 'Water',
+        category: 'Physical',
+        makesContact: true
     },
     'Crabhammer': {
         bp: 90,
@@ -65,9 +98,38 @@ var MOVES_RBY = {
         makesContact: true,
         alwaysCrit: true
     },
+    'Comet Punch': {
+        bp: 18,
+        type: 'Normal',
+        category: 'Physical',
+        isMultiHit: true,
+        makesContact: true
+    },
     'Confuse Ray': {
         bp: 0,
         type: 'Ghost'
+    },
+    'Constrict': {
+        bp: 10,
+        type: 'Normal',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Conversion': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Counter': {
+        bp: 0,
+        type: 'Fighting',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Cut': {
+        bp: 50,
+        type: 'Normal',
+        category: 'Physical',
+        makesContact: true
     },
     'Defense Curl': {
         bp: 0,
@@ -147,6 +209,10 @@ var MOVES_RBY = {
         type: 'Fire',
         category: 'Special',
         hasSecondaryEffect: true
+    },
+    'Flash': {
+        bp: 0,
+        type: 'Normal'
     },
     'Fly': {
         bp: 70,
@@ -236,9 +302,17 @@ var MOVES_RBY = {
         type: 'Grass',
         givesHealth: true
     },
+    'Metronome': {
+        bp: 0,
+        type: 'Normal'
+    },
     'Mirror Move': {
         bp: 0,
         type: 'Flying'
+    },
+    'Mimic': {
+        bp: 0,
+        type: 'Normal',
     },
     'Night Shade': {
         bp: 100,
@@ -269,6 +343,11 @@ var MOVES_RBY = {
         type: 'Grass',
         category: 'Special',
         alwaysCrit: true
+    },
+    'Razor Wind': {
+        bp: 80,
+        type: 'Normal',
+        category: 'Special'
     },
     'Recover': {
         bp: 0,
@@ -453,6 +532,10 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
         category: 'Special',
         hasSecondaryEffect: true
     },
+    'Attract': {
+      bp: 0,
+      type: 'Normal'
+    },
     'Baton Pass': {
         bp: 0,
         type: 'Normal'
@@ -500,6 +583,12 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
     },
     'Dig': { bp: 60 },
     'Double-Edge': { bp: 120 },
+    'Dragon Breath': {
+        bp: 60,
+        type: 'Dragon',
+        category: 'Special',
+        makesContact: true
+    },
     'Dynamic Punch': {
         bp: 100,
         type: 'Fighting',
@@ -684,6 +773,10 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
         bp: 0,
         type: 'Normal'
     },
+    'Mirror Coat': {
+        bp: 0,
+        type: 'Psychic'
+    },
     'Moonlight': {
         bp: 0,
         type: 'Normal'
@@ -821,16 +914,16 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         category: 'Special',
         isSpread: true
     },
+    'Aromatherapy': {
+        bp: 0,
+        type: 'Grass'
+    },
     'Astonish': {
         bp: 30,
         type: 'Ghost',
         category: 'Physical',
         makesContact: true,
         hasSecondaryEffect: true
-    },
-    'Aromatherapy': {
-        bp: 0,
-        type: 'Grass'
     },
     'Blast Burn': {
         bp: 150,
