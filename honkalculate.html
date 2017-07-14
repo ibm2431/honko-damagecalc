@@ -28,7 +28,8 @@
             <input class="gen visually-hidden" type="radio" name="gen" value="7" id="gen7" checked="checked" /><label class="btn btn-small btn-right" for="gen7">S/M</label>
         </span>
         <span title="Select the calculator's mode of function.">
-            <input class="mode visually-hidden" type="radio" name="mode" id="all-vs-one" /><label class="btn btn-wide btn-right right" for="all-vs-one">All vs One</label>
+                    <input class="mode visually-hidden" type="radio" name="mode" id="three-vs-all" /><label class="btn btn-xwide btn-right right" for="three-vs-all">Three vs All</label>
+            <input class="mode visually-hidden" type="radio" name="mode" id="all-vs-one" /><label class="btn btn-wide btn-mid right" for="all-vs-one">All vs One</label>
             <input class="mode visually-hidden" type="radio" name="mode" id="one-vs-all" /><label class="btn btn-wide btn-mid right" for="one-vs-all">One vs All</label>
             <input class="mode visually-hidden" type="radio" name="mode" id="one-vs-one" /><label class="btn btn-xwide btn-left right" for="one-vs-one">Three vs One</label>
         </span>
@@ -54,7 +55,7 @@
     <div class="panel-group" id="accordion">
         <fieldset class="panel panel-default poke-info" id="p1">
             <legend class="panel-heading panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">>  Pokemon</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">>  Pokemon #1</a>
             </legend>
             <div id="collapseOne" class="panel-collapse collapse in">
                 <div class="panel-body">
@@ -470,11 +471,852 @@
                 </div>
             </div>
         </fieldset>
-        <fieldset class="panel panel-default field-info">
+    
+        <div class="panel-group" id="accordion">
+        <fieldset class="panel panel-default poke-info" id="p2">
             <legend class="panel-heading panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">>  Field</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">>  Pokemon #2</a>
             </legend>
             <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <input type="text" class="set-selector" />
+                    <div class="info-group">
+                        <div>
+                            <label>Type</label>
+                            <select class="type1 terrain-trigger"></select>
+                            <select class="type2 terrain-trigger"></select>
+                        </div>
+                        <div>
+                            <label>Level</label>
+                            <input class="level" value="100" />
+                        </div>
+                        <div class="hide">
+                            <label>Weight (kg)</label>
+                            <input class="weight" value="10.0" />
+                        </div>
+                    </div>
+                    <div class="info-group">
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>Base</th>
+                                <th class="gen-specific g3 g4 g5 g6 g7">IVs</th>
+                                <th class="gen-specific g3 g4 g5 g6 g7">EVs</th>
+                                <th class="gen-specific g1 g2 hide">DVs</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            <tr class="hp">
+                                <td>
+                                    <label>HP</label>
+                                </td>
+                                <td>
+                                    <input class="base" value="100" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="ivs" value="31" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="evs" type="number" min="0" max="252" step="4" value="0" />
+                                </td>
+                                <td class="gen-specific g1 g2 hide">
+                                    <input class="dvs" value="15" disabled="disabled" />
+                                </td>
+                                <td><span class="total">341</span>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr class="at">
+                                <td>
+                                    <label>Attack</label>
+                                </td>
+                                <td>
+                                    <input class="base" value="100" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="ivs" value="31" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="evs" type="number" min="0" max="252" step="4" value="0" />
+                                </td>
+                                <td class="gen-specific g1 g2 hide">
+                                    <input class="dvs" value="15" />
+                                </td>
+                                <td><span class="total">236</span>
+                                </td>
+                                <td>
+                                    <select class="boost">
+                                        <option value="6">+6</option>
+                                        <option value="5">+5</option>
+                                        <option value="4">+4</option>
+                                        <option value="3">+3</option>
+                                        <option value="2">+2</option>
+                                        <option value="1">+1</option>
+                                        <option value="0" selected="selected">--</option>
+                                        <option value="-1">-1</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-3">-3</option>
+                                        <option value="-4">-4</option>
+                                        <option value="-5">-5</option>
+                                        <option value="-6">-6</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr class="df">
+                                <td>
+                                    <label>Defense</label>
+                                </td>
+                                <td>
+                                    <input class="base" value="100" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="ivs" value="31" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="evs" type="number" min="0" max="252" step="4" value="0" />
+                                </td>
+                                <td class="gen-specific g1 g2 hide">
+                                    <input class="dvs" value="15" />
+                                </td>
+                                <td><span class="total">236</span>
+                                </td>
+                                <td>
+                                    <select class="boost">
+                                        <option value="6">+6</option>
+                                        <option value="5">+5</option>
+                                        <option value="4">+4</option>
+                                        <option value="3">+3</option>
+                                        <option value="2">+2</option>
+                                        <option value="1">+1</option>
+                                        <option value="0" selected="selected">--</option>
+                                        <option value="-1">-1</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-3">-3</option>
+                                        <option value="-4">-4</option>
+                                        <option value="-5">-5</option>
+                                        <option value="-6">-6</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr class="sa gen-specific g2 g3 g4 g5 g6 g7">
+                                <td>
+                                    <label>Sp. Atk</label>
+                                </td>
+                                <td>
+                                    <input class="base" value="100" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="ivs" value="31" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="evs" type="number" min="0" max="252" step="4" value="0" />
+                                </td>
+                                <td class="gen-specific g1 g2 hide">
+                                    <input class="dvs" value="15" />
+                                </td>
+                                <td><span class="total">236</span>
+                                </td>
+                                <td>
+                                    <select class="boost">
+                                        <option value="6">+6</option>
+                                        <option value="5">+5</option>
+                                        <option value="4">+4</option>
+                                        <option value="3">+3</option>
+                                        <option value="2">+2</option>
+                                        <option value="1">+1</option>
+                                        <option value="0" selected="selected">--</option>
+                                        <option value="-1">-1</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-3">-3</option>
+                                        <option value="-4">-4</option>
+                                        <option value="-5">-5</option>
+                                        <option value="-6">-6</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr class="sd gen-specific g2 g3 g4 g5 g6 g7">
+                                <td>
+                                    <label>Sp. Def</label>
+                                </td>
+                                <td>
+                                    <input class="base" value="100" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="ivs" value="31" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="evs" type="number" min="0" max="252" step="4" value="0" />
+                                </td>
+                                <td class="gen-specific g1 g2 hide">
+                                    <input class="dvs" value="15" disabled="disabled" />
+                                </td>
+                                <td><span class="total">236</span>
+                                </td>
+                                <td>
+                                    <select class="boost">
+                                        <option value="6">+6</option>
+                                        <option value="5">+5</option>
+                                        <option value="4">+4</option>
+                                        <option value="3">+3</option>
+                                        <option value="2">+2</option>
+                                        <option value="1">+1</option>
+                                        <option value="0" selected="selected">--</option>
+                                        <option value="-1">-1</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-3">-3</option>
+                                        <option value="-4">-4</option>
+                                        <option value="-5">-5</option>
+                                        <option value="-6">-6</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr class="sl gen-specific g1 hide">
+                                <td>
+                                    <label>Special</label>
+                                </td>
+                                <td>
+                                    <input class="base" value="100" />
+                                </td>
+                                <td>
+                                    <input class="dvs" value="15" />
+                                </td>
+                                <td><span class="total">236</span>
+                                </td>
+                                <td>
+                                    <select class="boost">
+                                        <option value="6">+6</option>
+                                        <option value="5">+5</option>
+                                        <option value="4">+4</option>
+                                        <option value="3">+3</option>
+                                        <option value="2">+2</option>
+                                        <option value="1">+1</option>
+                                        <option value="0" selected="selected">--</option>
+                                        <option value="-1">-1</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-3">-3</option>
+                                        <option value="-4">-4</option>
+                                        <option value="-5">-5</option>
+                                        <option value="-6">-6</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr class="sp">
+                                <td>
+                                    <label>Speed</label>
+                                </td>
+                                <td>
+                                    <input class="base" value="100" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="ivs" value="31" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="evs" type="number" min="0" max="252" step="4" value="0" />
+                                </td>
+                                <td class="gen-specific g1 g2 hide">
+                                    <input class="dvs" value="15" />
+                                </td>
+                                <td><span class="total">236</span>
+                                </td>
+                                <td>
+                                    <select class="boost">
+                                        <option value="6">+6</option>
+                                        <option value="5">+5</option>
+                                        <option value="4">+4</option>
+                                        <option value="3">+3</option>
+                                        <option value="2">+2</option>
+                                        <option value="1">+1</option>
+                                        <option value="0" selected="selected">--</option>
+                                        <option value="-1">-1</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-3">-3</option>
+                                        <option value="-4">-4</option>
+                                        <option value="-5">-5</option>
+                                        <option value="-6">-6</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="info-group info-selectors">
+                        <div class="gen-specific g3 g4 g5 g6 g7">
+                            <label>Nature</label>
+                            <select class="nature">
+                                <option value="Adamant">Adamant</option>
+                                <option value="Bashful">Bashful</option>
+                                <option value="Bold">Bold</option>
+                                <option value="Brave">Brave</option>
+                                <option value="Calm">Calm</option>
+                                <option value="Careful">Careful</option>
+                                <option value="Docile">Docile</option>
+                                <option value="Gentle">Gentle</option>
+                                <option value="Hardy" selected="selected">Hardy</option>
+                                <option value="Hasty">Hasty</option>
+                                <option value="Impish">Impish</option>
+                                <option value="Jolly">Jolly</option>
+                                <option value="Lax">Lax</option>
+                                <option value="Lonely">Lonely</option>
+                                <option value="Mild">Mild</option>
+                                <option value="Modest">Modest</option>
+                                <option value="Naive">Naive</option>
+                                <option value="Naughty">Naughty</option>
+                                <option value="Quiet">Quiet</option>
+                                <option value="Quirky">Quirky</option>
+                                <option value="Rash">Rash</option>
+                                <option value="Relaxed">Relaxed</option>
+                                <option value="Sassy">Sassy</option>
+                                <option value="Serious">Serious</option>
+                                <option value="Timid">Timid</option>
+                            </select>
+                        </div>
+                        <div class="gen-specific g3 g4 g5 g6 g7">
+                            <label>Ability</label>
+                            <select class="ability terrain-trigger"></select>
+                        </div>
+                        <div class="gen-specific g2 g3 g4 g5 g6 g7">
+                            <label>Item</label>
+                            <select class="item terrain-trigger"></select>
+                        </div>
+                        <div>
+                            <label>Status</label>
+                            <select class="status">
+                                <option value="Healthy">Healthy</option>
+                                <option value="Poisoned">Poisoned</option>
+                                <option value="Badly Poisoned">Badly Poisoned</option>
+                                <option value="Burned">Burned</option>
+                                <option value="Paralyzed">Paralyzed</option>
+                                <option value="Asleep">Asleep</option>
+                                <option value="Frozen">Frozen</option>
+                            </select>
+                            <select class="toxic-counter hide">
+                                <option value="1">1/16</option>
+                                <option value="2">2/16</option>
+                                <option value="3">3/16</option>
+                                <option value="4">4/16</option>
+                                <option value="5">5/16</option>
+                                <option value="6">6/16</option>
+                                <option value="7">7/16</option>
+                                <option value="8">8/16</option>
+                                <option value="9">9/16</option>
+                                <option value="10">10/16</option>
+                                <option value="11">11/16</option>
+                                <option value="12">12/16</option>
+                                <option value="13">13/16</option>
+                                <option value="14">14/16</option>
+                                <option value="15">15/16</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="info-group">
+                        <label>Current HP</label>
+                        <input class="current-hp" value="341" />/<span class="max-hp">341</span> (
+                        <input class="percent-hp" value="100" />%)
+                    </div>
+                    <div class="move1">
+                        <select class="move-selector small-select"></select>
+                        <input class="move-bp" value="50" />
+                        <select class="move-type"></select>
+                        <select class="move-cat gen-specific g4 g5 g6 g7">
+                            <option value="Physical">Physical</option>
+                            <option value="Special">Special</option>
+                        </select>
+                        <input class="move-crit visually-hidden" type="checkbox" id="critL1" />
+                        <label class="btn crit-btn" for="critL1" title="Force this attack to be a critical hit?">Crit</label>
+                        <input class="move-z visually-hidden" type="checkbox" id="zL1"/>
+                        <label class="btn z-btn gen-specific g7" for="zL1" title="Make this attack a Z-move?">Z</label>
+                        <select class="move-hits hide">
+                            <option value="2">2 hits</option>
+                            <option value="3">3 hits</option>
+                            <option value="4">4 hits</option>
+                            <option value="5">5 hits</option>
+                        </select>
+                    </div>
+                    <div class="move2">
+                        <select class="move-selector small-select"></select>
+                        <input class="move-bp" value="0" />
+                        <select class="move-type"></select>
+                        <select class="move-cat gen-specific g4 g5 g6 g7">
+                            <option value="Physical">Physical</option>
+                            <option value="Special">Special</option>
+                        </select>
+                        <input class="move-crit visually-hidden" type="checkbox" id="critL2" />
+                        <label class="btn crit-btn" for="critL2" title="Force this attack to be a critical hit?">Crit</label>
+                        <input class="move-z visually-hidden" type="checkbox" id="zL2"/>
+                        <label class="btn z-btn gen-specific g7" for="zL2" title="Make this attack a Z-move?">Z</label>
+                        <select class="move-hits hide">
+                            <option value="2">2 hits</option>
+                            <option value="3">3 hits</option>
+                            <option value="4">4 hits</option>
+                            <option value="5">5 hits</option>
+                        </select>
+                    </div>
+                    <div class="move3">
+                        <select class="move-selector small-select"></select>
+                        <input class="move-bp" value="0" />
+                        <select class="move-type"></select>
+                        <select class="move-cat gen-specific g4 g5 g6 g7">
+                            <option value="Physical">Physical</option>
+                            <option value="Special">Special</option>
+                        </select>
+                        <input class="move-crit visually-hidden" type="checkbox" id="critL3" />
+                        <label class="btn crit-btn" for="critL3" title="Force this attack to be a critical hit?">Crit</label>
+                        <input class="move-z visually-hidden" type="checkbox" id="zL3"/>
+                        <label class="btn z-btn gen-specific g7" for="zL3" title="Make this attack a Z-move?">Z</label>
+                        <select class="move-hits hide">
+                            <option value="2">2 hits</option>
+                            <option value="3">3 hits</option>
+                            <option value="4">4 hits</option>
+                            <option value="5">5 hits</option>
+                        </select>
+                    </div>
+                    <div class="move4">
+                        <select class="move-selector small-select"></select>
+                        <input class="move-bp" value="0" />
+                        <select class="move-type"></select>
+                        <select class="move-cat gen-specific g4 g5 g6 g7">
+                            <option value="Physical">Physical</option>
+                            <option value="Special">Special</option>
+                        </select>
+                        <input class="move-crit visually-hidden" type="checkbox" id="critL4" />
+                        <label class="btn crit-btn" for="critL4" title="Force this attack to be a critical hit?">Crit</label>
+                        <input class="move-z visually-hidden" type="checkbox" id="zL4"/>
+                        <label class="btn z-btn gen-specific g7" for="zL4" title="Make this attack a Z-move?">Z</label>
+                        <select class="move-hits hide">
+                            <option value="2">2 hits</option>
+                            <option value="3">3 hits</option>
+                            <option value="4">4 hits</option>
+                            <option value="5">5 hits</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    
+    <div class="panel-group" id="accordion">
+        <fieldset class="panel panel-default poke-info" id="p3">
+            <legend class="panel-heading panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">>  Pokemon #3</a>
+            </legend>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <input type="text" class="set-selector" />
+                    <div class="info-group">
+                        <div>
+                            <label>Type</label>
+                            <select class="type1 terrain-trigger"></select>
+                            <select class="type2 terrain-trigger"></select>
+                        </div>
+                        <div>
+                            <label>Level</label>
+                            <input class="level" value="100" />
+                        </div>
+                        <div class="hide">
+                            <label>Weight (kg)</label>
+                            <input class="weight" value="10.0" />
+                        </div>
+                    </div>
+                    <div class="info-group">
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>Base</th>
+                                <th class="gen-specific g3 g4 g5 g6 g7">IVs</th>
+                                <th class="gen-specific g3 g4 g5 g6 g7">EVs</th>
+                                <th class="gen-specific g1 g2 hide">DVs</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            <tr class="hp">
+                                <td>
+                                    <label>HP</label>
+                                </td>
+                                <td>
+                                    <input class="base" value="100" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="ivs" value="31" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="evs" type="number" min="0" max="252" step="4" value="0" />
+                                </td>
+                                <td class="gen-specific g1 g2 hide">
+                                    <input class="dvs" value="15" disabled="disabled" />
+                                </td>
+                                <td><span class="total">341</span>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr class="at">
+                                <td>
+                                    <label>Attack</label>
+                                </td>
+                                <td>
+                                    <input class="base" value="100" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="ivs" value="31" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="evs" type="number" min="0" max="252" step="4" value="0" />
+                                </td>
+                                <td class="gen-specific g1 g2 hide">
+                                    <input class="dvs" value="15" />
+                                </td>
+                                <td><span class="total">236</span>
+                                </td>
+                                <td>
+                                    <select class="boost">
+                                        <option value="6">+6</option>
+                                        <option value="5">+5</option>
+                                        <option value="4">+4</option>
+                                        <option value="3">+3</option>
+                                        <option value="2">+2</option>
+                                        <option value="1">+1</option>
+                                        <option value="0" selected="selected">--</option>
+                                        <option value="-1">-1</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-3">-3</option>
+                                        <option value="-4">-4</option>
+                                        <option value="-5">-5</option>
+                                        <option value="-6">-6</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr class="df">
+                                <td>
+                                    <label>Defense</label>
+                                </td>
+                                <td>
+                                    <input class="base" value="100" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="ivs" value="31" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="evs" type="number" min="0" max="252" step="4" value="0" />
+                                </td>
+                                <td class="gen-specific g1 g2 hide">
+                                    <input class="dvs" value="15" />
+                                </td>
+                                <td><span class="total">236</span>
+                                </td>
+                                <td>
+                                    <select class="boost">
+                                        <option value="6">+6</option>
+                                        <option value="5">+5</option>
+                                        <option value="4">+4</option>
+                                        <option value="3">+3</option>
+                                        <option value="2">+2</option>
+                                        <option value="1">+1</option>
+                                        <option value="0" selected="selected">--</option>
+                                        <option value="-1">-1</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-3">-3</option>
+                                        <option value="-4">-4</option>
+                                        <option value="-5">-5</option>
+                                        <option value="-6">-6</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr class="sa gen-specific g2 g3 g4 g5 g6 g7">
+                                <td>
+                                    <label>Sp. Atk</label>
+                                </td>
+                                <td>
+                                    <input class="base" value="100" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="ivs" value="31" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="evs" type="number" min="0" max="252" step="4" value="0" />
+                                </td>
+                                <td class="gen-specific g1 g2 hide">
+                                    <input class="dvs" value="15" />
+                                </td>
+                                <td><span class="total">236</span>
+                                </td>
+                                <td>
+                                    <select class="boost">
+                                        <option value="6">+6</option>
+                                        <option value="5">+5</option>
+                                        <option value="4">+4</option>
+                                        <option value="3">+3</option>
+                                        <option value="2">+2</option>
+                                        <option value="1">+1</option>
+                                        <option value="0" selected="selected">--</option>
+                                        <option value="-1">-1</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-3">-3</option>
+                                        <option value="-4">-4</option>
+                                        <option value="-5">-5</option>
+                                        <option value="-6">-6</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr class="sd gen-specific g2 g3 g4 g5 g6 g7">
+                                <td>
+                                    <label>Sp. Def</label>
+                                </td>
+                                <td>
+                                    <input class="base" value="100" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="ivs" value="31" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="evs" type="number" min="0" max="252" step="4" value="0" />
+                                </td>
+                                <td class="gen-specific g1 g2 hide">
+                                    <input class="dvs" value="15" disabled="disabled" />
+                                </td>
+                                <td><span class="total">236</span>
+                                </td>
+                                <td>
+                                    <select class="boost">
+                                        <option value="6">+6</option>
+                                        <option value="5">+5</option>
+                                        <option value="4">+4</option>
+                                        <option value="3">+3</option>
+                                        <option value="2">+2</option>
+                                        <option value="1">+1</option>
+                                        <option value="0" selected="selected">--</option>
+                                        <option value="-1">-1</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-3">-3</option>
+                                        <option value="-4">-4</option>
+                                        <option value="-5">-5</option>
+                                        <option value="-6">-6</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr class="sl gen-specific g1 hide">
+                                <td>
+                                    <label>Special</label>
+                                </td>
+                                <td>
+                                    <input class="base" value="100" />
+                                </td>
+                                <td>
+                                    <input class="dvs" value="15" />
+                                </td>
+                                <td><span class="total">236</span>
+                                </td>
+                                <td>
+                                    <select class="boost">
+                                        <option value="6">+6</option>
+                                        <option value="5">+5</option>
+                                        <option value="4">+4</option>
+                                        <option value="3">+3</option>
+                                        <option value="2">+2</option>
+                                        <option value="1">+1</option>
+                                        <option value="0" selected="selected">--</option>
+                                        <option value="-1">-1</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-3">-3</option>
+                                        <option value="-4">-4</option>
+                                        <option value="-5">-5</option>
+                                        <option value="-6">-6</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr class="sp">
+                                <td>
+                                    <label>Speed</label>
+                                </td>
+                                <td>
+                                    <input class="base" value="100" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="ivs" value="31" />
+                                </td>
+                                <td class="gen-specific g3 g4 g5 g6 g7">
+                                    <input class="evs" type="number" min="0" max="252" step="4" value="0" />
+                                </td>
+                                <td class="gen-specific g1 g2 hide">
+                                    <input class="dvs" value="15" />
+                                </td>
+                                <td><span class="total">236</span>
+                                </td>
+                                <td>
+                                    <select class="boost">
+                                        <option value="6">+6</option>
+                                        <option value="5">+5</option>
+                                        <option value="4">+4</option>
+                                        <option value="3">+3</option>
+                                        <option value="2">+2</option>
+                                        <option value="1">+1</option>
+                                        <option value="0" selected="selected">--</option>
+                                        <option value="-1">-1</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-3">-3</option>
+                                        <option value="-4">-4</option>
+                                        <option value="-5">-5</option>
+                                        <option value="-6">-6</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="info-group info-selectors">
+                        <div class="gen-specific g3 g4 g5 g6 g7">
+                            <label>Nature</label>
+                            <select class="nature">
+                                <option value="Adamant">Adamant</option>
+                                <option value="Bashful">Bashful</option>
+                                <option value="Bold">Bold</option>
+                                <option value="Brave">Brave</option>
+                                <option value="Calm">Calm</option>
+                                <option value="Careful">Careful</option>
+                                <option value="Docile">Docile</option>
+                                <option value="Gentle">Gentle</option>
+                                <option value="Hardy" selected="selected">Hardy</option>
+                                <option value="Hasty">Hasty</option>
+                                <option value="Impish">Impish</option>
+                                <option value="Jolly">Jolly</option>
+                                <option value="Lax">Lax</option>
+                                <option value="Lonely">Lonely</option>
+                                <option value="Mild">Mild</option>
+                                <option value="Modest">Modest</option>
+                                <option value="Naive">Naive</option>
+                                <option value="Naughty">Naughty</option>
+                                <option value="Quiet">Quiet</option>
+                                <option value="Quirky">Quirky</option>
+                                <option value="Rash">Rash</option>
+                                <option value="Relaxed">Relaxed</option>
+                                <option value="Sassy">Sassy</option>
+                                <option value="Serious">Serious</option>
+                                <option value="Timid">Timid</option>
+                            </select>
+                        </div>
+                        <div class="gen-specific g3 g4 g5 g6 g7">
+                            <label>Ability</label>
+                            <select class="ability terrain-trigger"></select>
+                        </div>
+                        <div class="gen-specific g2 g3 g4 g5 g6 g7">
+                            <label>Item</label>
+                            <select class="item terrain-trigger"></select>
+                        </div>
+                        <div>
+                            <label>Status</label>
+                            <select class="status">
+                                <option value="Healthy">Healthy</option>
+                                <option value="Poisoned">Poisoned</option>
+                                <option value="Badly Poisoned">Badly Poisoned</option>
+                                <option value="Burned">Burned</option>
+                                <option value="Paralyzed">Paralyzed</option>
+                                <option value="Asleep">Asleep</option>
+                                <option value="Frozen">Frozen</option>
+                            </select>
+                            <select class="toxic-counter hide">
+                                <option value="1">1/16</option>
+                                <option value="2">2/16</option>
+                                <option value="3">3/16</option>
+                                <option value="4">4/16</option>
+                                <option value="5">5/16</option>
+                                <option value="6">6/16</option>
+                                <option value="7">7/16</option>
+                                <option value="8">8/16</option>
+                                <option value="9">9/16</option>
+                                <option value="10">10/16</option>
+                                <option value="11">11/16</option>
+                                <option value="12">12/16</option>
+                                <option value="13">13/16</option>
+                                <option value="14">14/16</option>
+                                <option value="15">15/16</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="info-group">
+                        <label>Current HP</label>
+                        <input class="current-hp" value="341" />/<span class="max-hp">341</span> (
+                        <input class="percent-hp" value="100" />%)
+                    </div>
+                    <div class="move1">
+                        <select class="move-selector small-select"></select>
+                        <input class="move-bp" value="50" />
+                        <select class="move-type"></select>
+                        <select class="move-cat gen-specific g4 g5 g6 g7">
+                            <option value="Physical">Physical</option>
+                            <option value="Special">Special</option>
+                        </select>
+                        <input class="move-crit visually-hidden" type="checkbox" id="critL1" />
+                        <label class="btn crit-btn" for="critL1" title="Force this attack to be a critical hit?">Crit</label>
+                        <input class="move-z visually-hidden" type="checkbox" id="zL1"/>
+                        <label class="btn z-btn gen-specific g7" for="zL1" title="Make this attack a Z-move?">Z</label>
+                        <select class="move-hits hide">
+                            <option value="2">2 hits</option>
+                            <option value="3">3 hits</option>
+                            <option value="4">4 hits</option>
+                            <option value="5">5 hits</option>
+                        </select>
+                    </div>
+                    <div class="move2">
+                        <select class="move-selector small-select"></select>
+                        <input class="move-bp" value="0" />
+                        <select class="move-type"></select>
+                        <select class="move-cat gen-specific g4 g5 g6 g7">
+                            <option value="Physical">Physical</option>
+                            <option value="Special">Special</option>
+                        </select>
+                        <input class="move-crit visually-hidden" type="checkbox" id="critL2" />
+                        <label class="btn crit-btn" for="critL2" title="Force this attack to be a critical hit?">Crit</label>
+                        <input class="move-z visually-hidden" type="checkbox" id="zL2"/>
+                        <label class="btn z-btn gen-specific g7" for="zL2" title="Make this attack a Z-move?">Z</label>
+                        <select class="move-hits hide">
+                            <option value="2">2 hits</option>
+                            <option value="3">3 hits</option>
+                            <option value="4">4 hits</option>
+                            <option value="5">5 hits</option>
+                        </select>
+                    </div>
+                    <div class="move3">
+                        <select class="move-selector small-select"></select>
+                        <input class="move-bp" value="0" />
+                        <select class="move-type"></select>
+                        <select class="move-cat gen-specific g4 g5 g6 g7">
+                            <option value="Physical">Physical</option>
+                            <option value="Special">Special</option>
+                        </select>
+                        <input class="move-crit visually-hidden" type="checkbox" id="critL3" />
+                        <label class="btn crit-btn" for="critL3" title="Force this attack to be a critical hit?">Crit</label>
+                        <input class="move-z visually-hidden" type="checkbox" id="zL3"/>
+                        <label class="btn z-btn gen-specific g7" for="zL3" title="Make this attack a Z-move?">Z</label>
+                        <select class="move-hits hide">
+                            <option value="2">2 hits</option>
+                            <option value="3">3 hits</option>
+                            <option value="4">4 hits</option>
+                            <option value="5">5 hits</option>
+                        </select>
+                    </div>
+                    <div class="move4">
+                        <select class="move-selector small-select"></select>
+                        <input class="move-bp" value="0" />
+                        <select class="move-type"></select>
+                        <select class="move-cat gen-specific g4 g5 g6 g7">
+                            <option value="Physical">Physical</option>
+                            <option value="Special">Special</option>
+                        </select>
+                        <input class="move-crit visually-hidden" type="checkbox" id="critL4" />
+                        <label class="btn crit-btn" for="critL4" title="Force this attack to be a critical hit?">Crit</label>
+                        <input class="move-z visually-hidden" type="checkbox" id="zL4"/>
+                        <label class="btn z-btn gen-specific g7" for="zL4" title="Make this attack a Z-move?">Z</label>
+                        <select class="move-hits hide">
+                            <option value="2">2 hits</option>
+                            <option value="3">3 hits</option>
+                            <option value="4">4 hits</option>
+                            <option value="5">5 hits</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        
+        <fieldset class="panel panel-default field-info">
+            <legend class="panel-heading panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">>  Field</a>
+            </legend>
+            <div id="collapseFour" class="panel-collapse collapse">
                 <div class="panel-body">
                     <div class="gen-specific g3 g4 g5 g6 g7" style="width: 10.6em; margin: 0 auto 5px;" title="Select the battle format.">
                         <input class="visually-hidden" type="radio" name="format" value="Singles" id="singles-format" checked="checked" />
@@ -646,6 +1488,8 @@
             </div>
         </fieldset>
     </div>
+    
+    
     <div>
         <fieldset class="panel holder-0">
             <legend class="panel-heading panel-title">Damage Results</legend>
@@ -654,6 +1498,7 @@
                 <thead>
                     <tr>
                         <th></th>
+                        <th>Attacker</th>
                         <th>Best Move</th>
                         <th>Damage (%)</th>
                         <th>Damage (px)</th>
@@ -662,6 +1507,7 @@
                         <th>Type 2</th>
                         <th>Ability</th>
                         <th>Item</th>
+                        <th>Matchup Score</th>
                     </tr>
                 </thead>
             </table>
