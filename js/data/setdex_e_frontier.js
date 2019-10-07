@@ -3,7 +3,7 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Lonely","item":"TwistedSpoon","moves":["Mimic","Metronome","Flash","Seismic Toss"],"tiers":["FCT0"]},
   },
   "Absol":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"BrightPowder","moves":["Bite","Razor Wind","Future Sight","Quick Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Bright Powder","moves":["Bite","Razor Wind","Future Sight","Quick Attack"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Choice Band","moves":["Double-Edge","Shadow Ball","Aerial Ace","Iron Tail"],"tiers":["FCT0"]},
   },
   "Aerodactyl":{
@@ -15,17 +15,17 @@ var SETDEX_E_FRONTIER = {
   "Aggron":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Quick Claw","moves":["Iron Tail","Earthquake","Aerial Ace","Roar"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Scope Lens","moves":["Focus Punch","Earthquake","Rock Slide","Thunder Wave"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"BrightPowder","moves":["Surf","Thunder","Fire Blast","Blizzard"],"tiers":["FCT3","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Bright Powder","moves":["Surf","Thunder","Fire Blast","Blizzard"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Quick Claw","moves":["Double-Edge","Earthquake","Rock Slide","Aerial Ace"],"tiers":["FCT4","FCT5"]},
   },
   "Aipom":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"Silk Scarf","moves":["Fury Swipes","Sand-Attack","Baton Pass","Agility"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"Silk Scarf","moves":["Fury Swipes","Sand Attack","Baton Pass","Agility"],"tiers":["FCT0"]},
   },
   "Alakazam":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Focus Band","moves":["Thunder Punch","Fire Punch","Ice Punch","Thunder Wave"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Lum Berry","moves":["Psychic","Calm Mind","Thunder Wave","Recover"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Choice Band","moves":["Trick","Disable","Psychic","Skill Swap"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"BrightPowder","moves":["Psychic","Thunder Punch","Fire Punch","Ice Punch"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Bright Powder","moves":["Psychic","Thunder Punch","Fire Punch","Ice Punch"],"tiers":["FCT4","FCT5"]},
   },
   "Altaria":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"Cheri Berry","moves":["Dragon Claw","Aerial Ace","Refresh","Body Slam"],"tiers":["FCT1","FCT5"]},
@@ -35,7 +35,7 @@ var SETDEX_E_FRONTIER = {
   },
   "Ampharos":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"Magnet","moves":["Thunder","Rain Dance","Thunder Wave","Attract"],"tiers":["FCT1","FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"BrightPowder","moves":["Thunder Punch","Fire Punch","Focus Punch","Thunder Wave"],"tiers":["FCT2","FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Bright Powder","moves":["Thunder Punch","Fire Punch","Focus Punch","Thunder Wave"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Focus Band","moves":["Thunderbolt","Mega Kick","Iron Tail","Brick Break"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Lum Berry","moves":["Thunderbolt","Fire Punch","Thunder Wave","Reflect"],"tiers":["FCT4","FCT5"]},
   },
@@ -47,10 +47,10 @@ var SETDEX_E_FRONTIER = {
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Lum Berry","moves":["Sludge Bomb","Earthquake","Iron Tail","Glare"],"tiers":["FCT0"]},
   },
   "Arcanine":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"King's Rock","moves":["Flamethrower","ExtremeSpeed","Crunch","Body Slam"],"tiers":["FCT1","FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"King's Rock","moves":["Flamethrower","Extreme Speed","Crunch","Body Slam"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Docile","item":"Lum Berry","moves":["Fire Blast","Sunny Day","Crunch","Roar"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"White Herb","moves":["Overheat","ExtremeSpeed","Crunch","Aerial Ace"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Docile","item":"White Herb","moves":["Overheat","ExtremeSpeed","Crunch","Double-Edge"],"tiers":["FCT4","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"White Herb","moves":["Overheat","Extreme Speed","Crunch","Aerial Ace"],"tiers":["FCT3","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Docile","item":"White Herb","moves":["Overheat","Extreme Speed","Crunch","Double-Edge"],"tiers":["FCT4","FCT5"]},
   },
   "Ariados":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Serious","item":"Lax Incense","moves":["Signal Beam","Spider Web","Night Shade","Toxic"],"tiers":["FCT0"]},
@@ -67,13 +67,13 @@ var SETDEX_E_FRONTIER = {
   "Articuno":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Ice Beam","Water Pulse","Icy Wind","Roar"],"tiers":["FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Impish","item":"Leftovers","moves":["Substitute","Toxic","Blizzard","Double Team"],"tiers":["FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"BrightPowder","moves":["Ice Beam","Facade","Aerial Ace","Protect"],"tiers":["FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Bright Powder","moves":["Ice Beam","Facade","Aerial Ace","Protect"],"tiers":["FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Chesto Berry","moves":["Blizzard","Double-Edge","Rest","Reflect"],"tiers":["FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Focus Band","moves":["Blizzard","Double-Edge","Agility","Swagger"],"tiers":["FCT5"]},
     "Set 6": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Chesto Berry","moves":["Ice Beam","Aerial Ace","Reflect","Rest"],"tiers":["FCT5"]},
   },
   "Azumarill":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Docile","item":"Sitrus Berry","moves":["BubbleBeam","Facade","Dig","Protect"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Docile","item":"Sitrus Berry","moves":["Bubble Beam","Facade","Dig","Protect"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"Shell Bell","moves":["Mega Kick","Brick Break","Iron Tail","Dig"],"tiers":["FCT0"]},
   },
   "Azurill":{
@@ -93,8 +93,8 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Bashful","item":"Focus Band","moves":["Magnitude","Water Pulse","Spark","Future Sight"],"tiers":["FCT0"]},
   },
   "Bayleef":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"BrightPowder","moves":["Razor Leaf","Toxic","Safeguard","Light Screen"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Docile","item":"Chesto Berry","moves":["Giga Drain","Body Slam","GrassWhistle","Rest"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Bright Powder","moves":["Razor Leaf","Toxic","Safeguard","Light Screen"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Docile","item":"Chesto Berry","moves":["Giga Drain","Body Slam","Grass Whistle","Rest"],"tiers":["FCT0"]},
   },
   "Beautifly":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Docile","item":"Mental Herb","moves":["Silver Wind","Mega Drain","Attract","Whirlwind"],"tiers":["FCT0"]},
@@ -107,7 +107,7 @@ var SETDEX_E_FRONTIER = {
   },
   "Bellossom":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Persim Berry","moves":["Petal Dance","Safeguard","Sunny Day","Synthesis"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"BrightPowder","moves":["SolarBeam","Attract","Sunny Day","Synthesis"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Bright Powder","moves":["Solar Beam","Attract","Sunny Day","Synthesis"],"tiers":["FCT0"]},
   },
   "Bellsprout":{
     "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Lax","item":"Sitrus Berry","moves":["Razor Leaf","Acid","Stun Spore","Wrap"],"tiers":["FCT0"]},
@@ -125,29 +125,29 @@ var SETDEX_E_FRONTIER = {
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"White Herb","moves":["Overheat","Earthquake","Thunder Punch","Rock Slide"],"tiers":["FCT4","FCT5"]},
   },
   "Blissey":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Bold","item":"BrightPowder","moves":["Toxic","Double Team","Sing","Softboiled"],"tiers":["FCT1","FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Bold","item":"Bright Powder","moves":["Toxic","Double Team","Sing","Soft-Boiled"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Bold","item":"Leftovers","moves":["Seismic Toss","Sing","Attract","Substitute"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Bold","item":"Focus Band","moves":["Fire Blast","Blizzard","Calm Mind","Softboiled"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Bold","item":"Focus Band","moves":["Ice Beam","Calm Mind","Counter","Softboiled"],"tiers":["FCT4","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Bold","item":"Focus Band","moves":["Fire Blast","Blizzard","Calm Mind","Soft-Boiled"],"tiers":["FCT3","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Bold","item":"Focus Band","moves":["Ice Beam","Calm Mind","Counter","Soft-Boiled"],"tiers":["FCT4","FCT5"]},
   },
   "Breloom":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Jolly","item":"King's Rock","moves":["Sky Uppercut","Mach Punch","Headbutt","Counter"],"tiers":["FCT1","FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Docile","item":"BrightPowder","moves":["Giga Drain","Leech Seed","Focus Punch","Spore"],"tiers":["FCT2","FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Docile","item":"Bright Powder","moves":["Giga Drain","Leech Seed","Focus Punch","Spore"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Leftovers","moves":["Iron Tail","Focus Punch","Attract","Spore"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Quick Claw","moves":["Focus Punch","Sludge Bomb","Spore","Double Team"],"tiers":["FCT4","FCT5"]},
   },
   "Bulbasaur":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"BrightPowder","moves":["Razor Leaf","Sweet Scent","Sleep Powder","Light Screen"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"Bright Powder","moves":["Razor Leaf","Sweet Scent","Sleep Powder","Light Screen"],"tiers":["FCT0"]},
   },
   "Butterfree":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Pecha Berry","moves":["Silver Wind","Psybeam","Toxic","Whirlwind"],"tiers":["FCT0"]},
   },
   "Cacnea":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Quirky","item":"Sitrus Berry","moves":["Needle Arm","Faint Attack","Cotton Spore","Sand-Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Quirky","item":"Sitrus Berry","moves":["Needle Arm","Feint Attack","Cotton Spore","Sand Attack"],"tiers":["FCT0"]},
   },
   "Cacturne":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Hasty","item":"Scope Lens","moves":["Needle Arm","Faint Attack","Acid","Mega Punch"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Hardy","item":"Persim Berry","moves":["Mega Kick","Teeter Dance","Faint Attack","Sandstorm"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Hasty","item":"Scope Lens","moves":["Needle Arm","Feint Attack","Acid","Mega Punch"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Hardy","item":"Persim Berry","moves":["Mega Kick","Teeter Dance","Feint Attack","Sandstorm"],"tiers":["FCT0"]},
   },
   "Camerupt":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Quirky","item":"Focus Band","moves":["Magnitude","Protect","Sandstorm","Rock Slide"],"tiers":["FCT0"]},
@@ -168,23 +168,23 @@ var SETDEX_E_FRONTIER = {
   },
   "Chansey":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Relaxed","item":"Sitrus Berry","moves":["Metronome","Refresh","Defense Curl","Minimize"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Relaxed","item":"Leftovers","moves":["Seismic Toss","Shadow Ball","Double Team","Softboiled"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Relaxed","item":"Leftovers","moves":["Seismic Toss","Shadow Ball","Double Team","Soft-Boiled"],"tiers":["FCT0"]},
   },
   "Charizard":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Focus Band","moves":["Fire Blast","Sunny Day","Roar","Scary Face"],"tiers":["FCT1","FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"BrightPowder","moves":["Earthquake","Aerial Ace","Dragon Dance","SmokeScreen"],"tiers":["FCT2","FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Bright Powder","moves":["Earthquake","Aerial Ace","Dragon Dance","Smokescreen"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Flamethrower","Dragon Claw","Bite","Brick Break"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Hardy","item":"White Herb","moves":["Overheat","Earthquake","Aerial Ace","Rock Slide"],"tiers":["FCT4","FCT5"]},
   },
   "Charmander":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Focus Band","moves":["Fire Spin","Metal Claw","SmokeScreen","Scary Face"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Focus Band","moves":["Fire Spin","Metal Claw","Smokescreen","Scary Face"],"tiers":["FCT0"]},
   },
   "Charmeleon":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Naughty","item":"Scope Lens","moves":["Slash","Fire Spin","Swords Dance","Aerial Ace"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Hardy","item":"Scope Lens","moves":["Flamethrower","Slash","Ancient Power","Dragon Rage"],"tiers":["FCT0"]},
   },
   "Chikorita":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"BrightPowder","moves":["Secret Power","Bullet Seed","Mud-Slap","Light Screen"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"Bright Powder","moves":["Secret Power","Bullet Seed","Mud-Slap","Light Screen"],"tiers":["FCT0"]},
   },
   "Chimecho":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Sassy","item":"TwistedSpoon","moves":["Psywave","Take Down","Heal Bell","Safeguard"],"tiers":["FCT0"]},
@@ -199,14 +199,14 @@ var SETDEX_E_FRONTIER = {
   "Claydol":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Lum Berry","moves":["Earthquake","Rock Slide","Swagger","Psych Up"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Calm","item":"Leftovers","moves":["Psychic","Earthquake","Double Team","Cosmic Power"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Shell Bell","moves":["Psychic","Ice Beam","SolarBeam","Sunny Day"],"tiers":["FCT3","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Shell Bell","moves":["Psychic","Ice Beam","Solar Beam","Sunny Day"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Focus Band","moves":["Psychic","Earthquake","Shadow Ball","Explosion"],"tiers":["FCT4","FCT5"]},
   },
   "Clefable":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Brave","item":"Leftovers","moves":["Metronome","Double Team","Reflect","Follow Me"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Focus Band","moves":["Meteor Mash","Cosmic Power","Double Team","Follow Me"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Lum Berry","moves":["Thunderbolt","Ice Beam","Flamethrower","Magical Leaf"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"Focus Band","moves":["Mega Kick","Psychic","Shadow Ball","Softboiled"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"Focus Band","moves":["Mega Kick","Psychic","Shadow Ball","Soft-Boiled"],"tiers":["FCT4","FCT5"]},
   },
   "Clefairy":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Lonely","item":"Lax Incense","moves":["Follow Me","Return","Encore","Sing"],"tiers":["FCT0"]},
@@ -215,34 +215,34 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Serious","item":"Lax Incense","moves":["Sweet Kiss","Sing","Attract","Metronome"],"tiers":["FCT0"]},
   },
   "Cloyster":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Sassy","item":"NeverMeltIce","moves":["Aurora Beam","Spike Cannon","Supersonic","Protect"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Sassy","item":"Never-Melt Ice","moves":["Aurora Beam","Spike Cannon","Supersonic","Protect"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Careful","item":"Leftovers","moves":["Dive","Toxic","Double Team","Protect"],"tiers":["FCT0"]},
   },
   "Combusken":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Scope Lens","moves":["Ember","Double Kick","Quick Attack","Sand-Attack"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Docile","item":"Scope Lens","moves":["Flamethrower","Sky Uppercut","Slash","Sand-Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Scope Lens","moves":["Ember","Double Kick","Quick Attack","Sand Attack"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Docile","item":"Scope Lens","moves":["Flamethrower","Sky Uppercut","Slash","Sand Attack"],"tiers":["FCT0"]},
   },
   "Corphish":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Brave","item":"Mystic Water","moves":["Crabhammer","Water Pulse","Mud-Slap","Protect"],"tiers":["FCT0"]},
   },
   "Corsola":{
-    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Impish","item":"Sitrus Berry","moves":["BubbleBeam","Mirror Coat","Attract","Ancient Power"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Impish","item":"Sitrus Berry","moves":["Bubble Beam","Mirror Coat","Attract","Ancient Power"],"tiers":["FCT0"]},
   },
   "Cradily":{
     "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Relaxed","item":"Leftovers","moves":["Giga Drain","Rock Slide","Barrier","Confuse Ray"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Sitrus Berry","moves":["Earthquake","Ancient Power","Swagger","Psych Up"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":168,"sa":168,"sd":168,"sp":0},"nature":"Modest","item":"Leftovers","moves":["Substitute","SolarBeam","Sunny Day","Recover"],"tiers":["FCT3","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":168,"sa":168,"sd":168,"sp":0},"nature":"Modest","item":"Leftovers","moves":["Substitute","Solar Beam","Sunny Day","Recover"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Bold","item":"Leftovers","moves":["Toxic","Ingrain","Mirror Coat","Giga Drain"],"tiers":["FCT4","FCT5"]},
   },
   "Crawdaunt":{
-    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Persim Berry","moves":["BubbleBeam","ViceGrip","Knock Off","Protect"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Persim Berry","moves":["Bubble Beam","ViceGrip","Knock Off","Protect"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"Quick Claw","moves":["Guillotine","Frustration","Ancient Power","Aerial Ace"],"tiers":["FCT0"]},
   },
   "Crobat":{
     "Set 1": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":168,"sd":0,"sp":0},"nature":"Quirky","item":"King's Rock","moves":["Sludge Bomb","Bite","Astonish","Screech"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Calm","item":"Leftovers","moves":["Toxic","Giga Drain","Confuse Ray","Double Team"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Scope Lens","moves":["Air Cutter","Double-Edge","Shadow Ball","Screech"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"BrightPowder","moves":["Sludge Bomb","Aerial Ace","Shadow Ball","Confuse Ray"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Bright Powder","moves":["Sludge Bomb","Aerial Ace","Shadow Ball","Confuse Ray"],"tiers":["FCT4","FCT5"]},
   },
   "Croconaw":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Scope Lens","moves":["Slash","Water Pulse","Bite","Scary Face"],"tiers":["FCT0"]},
@@ -252,35 +252,35 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Hardy","item":"Soft Sand","moves":["Bone Club","Headbutt","Brick Break","Aerial Ace"],"tiers":["FCT0"]},
   },
   "Cyndaquil":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Sitrus Berry","moves":["Ember","Swift","Quick Attack","SmokeScreen"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Sitrus Berry","moves":["Ember","Swift","Quick Attack","Smokescreen"],"tiers":["FCT0"]},
   },
   "Delcatty":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Lonely","item":"Sitrus Berry","moves":["Secret Power","Faint Attack","Double Team","Heal Bell"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Lonely","item":"Sitrus Berry","moves":["Secret Power","Feint Attack","Double Team","Heal Bell"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Quick Claw","moves":["Fake Tears","Sing","Thunderbolt","Ice Beam"],"tiers":["FCT0"]},
   },
   "Delibird":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"NeverMeltIce","moves":["Present","Ice Ball","Aerial Ace","Hail"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Never-Melt Ice","moves":["Present","Ice Ball","Aerial Ace","Hail"],"tiers":["FCT0"]},
   },
   "Dewgong":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"NeverMeltIce","moves":["Ice Beam","Icy Wind","Headbutt","Fake Out"],"tiers":["FCT1","FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Never-Melt Ice","moves":["Ice Beam","Icy Wind","Headbutt","Fake Out"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Shell Bell","moves":["Blizzard","Double-Edge","Encore","Disable"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Bold","item":"Chesto Berry","moves":["Horn Drill","Sheer Cold","Sleep Talk","Rest"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Lum Berry","moves":["Sheer Cold","Ice Beam","Surf","Signal Beam"],"tiers":["FCT4","FCT5"]},
   },
   "Diglett":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Naive","item":"King's Rock","moves":["Magnitude","Slash","Rock Tomb","Sand-Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Naive","item":"King's Rock","moves":["Magnitude","Slash","Rock Tomb","Sand Attack"],"tiers":["FCT0"]},
   },
   "Ditto":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Hardy","item":"Metal Powder","moves":["Transform","---","---","---"],"tiers":["FCT0"]},
   },
   "Dodrio":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Chesto Berry","moves":["Drill Peck","Tri Attack","Sleep Talk","Rest"],"tiers":["FCT1","FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"King's Rock","moves":["Drill Peck","Double-Edge","Faint Attack","Protect"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Lum Berry","moves":["Double-Edge","Drill Peck","Steel Wing","Faint Attack"],"tiers":["FCT3","FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"King's Rock","moves":["Drill Peck","Double-Edge","Feint Attack","Protect"],"tiers":["FCT2","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Lum Berry","moves":["Double-Edge","Drill Peck","Steel Wing","Feint Attack"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Salac Berry","moves":["Flail","Endure","Drill Peck","Facade"],"tiers":["FCT4","FCT5"]},
   },
   "Doduo":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Lonely","item":"Liechi Berry","moves":["Fury Attack","Uproar","Mud-Slap","Faint Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Lonely","item":"Liechi Berry","moves":["Fury Attack","Uproar","Mud-Slap","Feint Attack"],"tiers":["FCT0"]},
   },
   "Donphan":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Chesto Berry","moves":["Earthquake","Ancient Power","Swagger","Rest"],"tiers":["FCT1","FCT5"]},
@@ -293,8 +293,8 @@ var SETDEX_E_FRONTIER = {
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"Chesto Berry","moves":["Return","Rest","Thunder Wave","Dragon Dance"],"tiers":["FCT0"]},
   },
   "Dragonite":{
-    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"BrightPowder","moves":["Earthquake","Aerial Ace","Brick Break","Dragon Dance"],"tiers":["FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"BrightPowder","moves":["Earthquake","Double-Edge","Aerial Ace","Dragon Dance"],"tiers":["FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Bright Powder","moves":["Earthquake","Aerial Ace","Brick Break","Dragon Dance"],"tiers":["FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Bright Powder","moves":["Earthquake","Double-Edge","Aerial Ace","Dragon Dance"],"tiers":["FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":168,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Leftovers","moves":["Hyper Beam","Attract","Double Team","Thunder Wave"],"tiers":["FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Chesto Berry","moves":["Hyper Beam","Thunder Wave","Dragon Dance","Rest"],"tiers":["FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Lum Berry","moves":["Outrage","Double-Edge","Thunder Wave","Roar"],"tiers":["FCT5"]},
@@ -349,7 +349,7 @@ var SETDEX_E_FRONTIER = {
   },
   "Electrode":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Focus Band","moves":["Thunderbolt","Swift","Light Screen","Protect"],"tiers":["FCT1","FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Modest","item":"BrightPowder","moves":["Thunder","Rain Dance","Double Team","Swagger"],"tiers":["FCT2","FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Modest","item":"Bright Powder","moves":["Thunder","Rain Dance","Double Team","Swagger"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Naughty","item":"Liechi Berry","moves":["Explosion","Thunderbolt","Thunder Wave","Endure"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Naughty","item":"Lum Berry","moves":["Explosion","Thunderbolt","Thunder Wave","Mirror Coat"],"tiers":["FCT4","FCT5"]},
   },
@@ -358,7 +358,7 @@ var SETDEX_E_FRONTIER = {
   },
   "Entei":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Chesto Berry","moves":["Flamethrower","Double Team","Calm Mind","Rest"],"tiers":["FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"BrightPowder","moves":["Fire Blast","Sunny Day","SolarBeam","Reflect"],"tiers":["FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Bright Powder","moves":["Fire Blast","Sunny Day","Solar Beam","Reflect"],"tiers":["FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Docile","item":"Lum Berry","moves":["Flamethrower","Double-Edge","Swagger","Psych Up"],"tiers":["FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"King's Rock","moves":["Flamethrower","Bite","Double Team","Reflect"],"tiers":["FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Docile","item":"Salac Berry","moves":["Fire Blast","Double-Edge","Endure","Reflect"],"tiers":["FCT5"]},
@@ -368,20 +368,20 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":168,"sa":0,"sd":168,"sp":168},"nature":"Modest","item":"Lum Berry","moves":["Psychic","Charm","Calm Mind","Baton Pass"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Docile","item":"Chesto Berry","moves":["Psychic","Shadow Ball","Calm Mind","Rest"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Psychic","Bite","Wish","Reflect"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"BrightPowder","moves":["Psychic","Bite","Attract","Calm Mind"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Bright Powder","moves":["Psychic","Bite","Attract","Calm Mind"],"tiers":["FCT4","FCT5"]},
   },
   "Exeggcute":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Naughty","item":"Persim Berry","moves":["Confusion","Ancient Power","Leech Seed","Light Screen"],"tiers":["FCT0"]},
   },
   "Exeggutor":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Quiet","item":"Quick Claw","moves":["SolarBeam","Sunny Day","Synthesis","Light Screen"],"tiers":["FCT1","FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Quiet","item":"Quick Claw","moves":["Solar Beam","Sunny Day","Synthesis","Light Screen"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Hardy","item":"Chesto Berry","moves":["Return","Curse","Sleep Powder","Rest"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Hardy","item":"Leftovers","moves":["Leech Seed","Giga Drain","Toxic","Explosion"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"BrightPowder","moves":["Psychic","Giga Drain","Sludge Bomb","Explosion"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Bright Powder","moves":["Psychic","Giga Drain","Sludge Bomb","Explosion"],"tiers":["FCT4","FCT5"]},
   },
   "Exploud":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Impish","item":"Chesto Berry","moves":["Hyper Voice","Shadow Ball","Sleep Talk","Rest"],"tiers":["FCT1","FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Focus Band","moves":["SolarBeam","Sunny Day","Earthquake","Counter"],"tiers":["FCT2","FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Focus Band","moves":["Solar Beam","Sunny Day","Earthquake","Counter"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"White Herb","moves":["Overheat","Ice Beam","Thunder Punch","Extrasensory"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"White Herb","moves":["Mega Kick","Earthquake","Shadow Ball","Overheat"],"tiers":["FCT4","FCT5"]},
   },
@@ -391,7 +391,7 @@ var SETDEX_E_FRONTIER = {
   "Fearow":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Sharp Beak","moves":["Drill Peck","Tri Attack","Facade","Mud-Slap"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Focus Band","moves":["Drill Peck","Tri Attack","Attract","Pursuit"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Hardy","item":"Scope Lens","moves":["Drill Peck","Return","Steel Wing","Faint Attack"],"tiers":["FCT3","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Hardy","item":"Scope Lens","moves":["Drill Peck","Return","Steel Wing","Feint Attack"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Lum Berry","moves":["Drill Peck","Double-Edge","Steel Wing","Sky Attack"],"tiers":["FCT4","FCT5"]},
   },
   "Feebas":{
@@ -407,14 +407,14 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Mild","item":"Magnet","moves":["Shock Wave","Thunder Wave","Cotton Spore","Light Screen"],"tiers":["FCT0"]},
   },
   "Flareon":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Sitrus Berry","moves":["Flamethrower","Roar","Bite","Sand-Attack"],"tiers":["FCT1","FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Sitrus Berry","moves":["Flamethrower","Roar","Bite","Sand Attack"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Relaxed","item":"Quick Claw","moves":["Curse","Attract","Double-Edge","Shadow Ball"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Jolly","item":"Quick Claw","moves":["Shadow Ball","Flail","Endure","Overheat"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Quick Claw","moves":["Overheat","Sunny Day","Double-Edge","Shadow Ball"],"tiers":["FCT4","FCT5"]},
   },
   "Flygon":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"BrightPowder","moves":["Earthquake","Steel Wing","Faint Attack","Facade"],"tiers":["FCT1","FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"BrightPowder","moves":["SolarBeam","Fire Blast","Crunch","Sunny Day"],"tiers":["FCT2","FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Bright Powder","moves":["Earthquake","Steel Wing","Feint Attack","Facade"],"tiers":["FCT1","FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Bright Powder","moves":["Solar Beam","Fire Blast","Crunch","Sunny Day"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Hardy","item":"Scope Lens","moves":["Earthquake","Dragon Claw","Flamethrower","Giga Drain"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Hardy","item":"Scope Lens","moves":["Earthquake","Dragon Claw","Double-Edge","Crunch"],"tiers":["FCT4","FCT5"]},
   },
@@ -432,11 +432,11 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":0,"sp":168},"nature":"Timid","item":"Leftovers","moves":["Dream Eater","Hypnosis","Magical Leaf","Reflect"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Modest","item":"Chesto Berry","moves":["Psychic","Calm Mind","Double Team","Rest"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Psychic","Ice Punch","Fire Punch","Magical Leaf"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"BrightPowder","moves":["Psychic","Thunderbolt","Ice Punch","Fire Punch"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Bright Powder","moves":["Psychic","Thunderbolt","Ice Punch","Fire Punch"],"tiers":["FCT4","FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":0,"sp":168},"nature":"Docile","item":"Salac Berry","moves":["Psychic","Shadow Ball","Endure","Destiny Bond"],"tiers":["FCT5"]},
     "Set 6": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Timid","item":"Lum Berry","moves":["Psychic","Thunderbolt","Will-O-Wisp","Destiny Bond"],"tiers":["FCT5"]},
     "Set 7": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Bold","item":"Quick Claw","moves":["Psychic","Calm Mind","Will-O-Wisp","Destiny Bond"],"tiers":["FCT5"]},
-    "Set 8": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"BrightPowder","moves":["Psychic","Magical Leaf","Attract","Double Team"],"tiers":["FCT5"]},
+    "Set 8": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Bright Powder","moves":["Psychic","Magical Leaf","Attract","Double Team"],"tiers":["FCT5"]},
   },
   "Gastly":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Lonely","item":"Lax Incense","moves":["Dream Eater","Hypnosis","Night Shade","Confuse Ray"],"tiers":["FCT0"]},
@@ -446,8 +446,8 @@ var SETDEX_E_FRONTIER = {
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Leftovers","moves":["Sludge Bomb","Shadow Ball","Confuse Ray","Will-O-Wisp"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Quick Claw","moves":["Psychic","Thunderbolt","Giga Drain","Skill Swap"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Psychic","Fire Punch","Ice Punch","Destiny Bond"],"tiers":["FCT4","FCT5"]},
-    "Set 5": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"BrightPowder","moves":["Psychic","Shadow Ball","Thunderbolt","Fire Punch"],"tiers":["FCT5"]},
-    "Set 6": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"BrightPowder","moves":["Psychic","Shadow Ball","Thunderbolt","Ice Punch"],"tiers":["FCT5"]},
+    "Set 5": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Bright Powder","moves":["Psychic","Shadow Ball","Thunderbolt","Fire Punch"],"tiers":["FCT5"]},
+    "Set 6": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Bright Powder","moves":["Psychic","Shadow Ball","Thunderbolt","Ice Punch"],"tiers":["FCT5"]},
     "Set 7": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Psychic","Thunderbolt","Fire Punch","Destiny Bond"],"tiers":["FCT5"]},
     "Set 8": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Psychic","Thunderbolt","Ice Punch","Destiny Bond"],"tiers":["FCT5"]},
   },
@@ -470,7 +470,7 @@ var SETDEX_E_FRONTIER = {
   },
   "Gloom":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Persim Berry","moves":["Petal Dance","Acid","Stun Spore","Moonlight"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Pecha Berry","moves":["SolarBeam","Sunny Day","Sludge Bomb","Moonlight"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Pecha Berry","moves":["Solar Beam","Sunny Day","Sludge Bomb","Moonlight"],"tiers":["FCT0"]},
   },
   "Golbat":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"Scope Lens","moves":["Air Cutter","Confuse Ray","Toxic","Steel Wing"],"tiers":["FCT0"]},
@@ -496,7 +496,7 @@ var SETDEX_E_FRONTIER = {
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Quiet","item":"Shell Bell","moves":["Surf","Rain Dance","Psychic","Body Slam"],"tiers":["FCT0"]},
   },
   "Granbull":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Cheri Berry","moves":["Mega Kick","SmellingSalt","Thunder Wave","Roar"],"tiers":["FCT1","FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Cheri Berry","moves":["Mega Kick","Smelling Salts","Thunder Wave","Roar"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":252,"sp":0},"nature":"Quiet","item":"White Herb","moves":["Overheat","Thunderbolt","Ice Punch","Facade"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Quick Claw","moves":["Double-Edge","Earthquake","Sludge Bomb","Rock Slide"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Brave","item":"Choice Band","moves":["Mega Kick","Earthquake","Crunch","Shadow Ball"],"tiers":["FCT4","FCT5"]},
@@ -509,7 +509,7 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Quirky","item":"Pecha Berry","moves":["Sludge","Rock Tomb","Acid Armor","Minimize"],"tiers":["FCT0"]},
   },
   "Grovyle":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"BrightPowder","moves":["Fury Cutter","Endeavor","Brick Break","Double Team"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"Bright Powder","moves":["Fury Cutter","Endeavor","Brick Break","Double Team"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Docile","item":"Lum Berry","moves":["Giga Drain","Crush Claw","Screech","Rock Tomb"],"tiers":["FCT0"]},
   },
   "Growlithe":{
@@ -541,7 +541,7 @@ var SETDEX_E_FRONTIER = {
   "Heracross":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Focus Band","moves":["Megahorn","Brick Break","Rock Tomb","Counter"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Jolly","item":"Lum Berry","moves":["Megahorn","Earthquake","Attract","Bulk Up"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"BrightPowder","moves":["Megahorn","Earthquake","Rock Slide","Brick Break"],"tiers":["FCT3","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Bright Powder","moves":["Megahorn","Earthquake","Rock Slide","Brick Break"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Salac Berry","moves":["Megahorn","Earthquake","Reversal","Endure"],"tiers":["FCT4","FCT5"]},
   },
   "Hitmonchan":{
@@ -569,7 +569,7 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Quirky","item":"Focus Band","moves":["Flamethrower","Shadow Ball","Counter","Will-O-Wisp"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Fire Blast","Crunch","Roar","Rest"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Quirky","item":"White Herb","moves":["Overheat","Shadow Ball","Sludge Bomb","Double-Edge"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"White Herb","moves":["Overheat","SolarBeam","Crunch","Sunny Day"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"White Herb","moves":["Overheat","Solar Beam","Crunch","Sunny Day"],"tiers":["FCT4","FCT5"]},
   },
   "Houndour":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Charcoal","moves":["Crunch","Ember","Roar","Protect"],"tiers":["FCT0"]},
@@ -593,15 +593,15 @@ var SETDEX_E_FRONTIER = {
   },
   "Ivysaur":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Gentle","item":"Persim Berry","moves":["Petal Dance","Growth","Sweet Scent","Fury Cutter"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"BrightPowder","moves":["Giga Drain","Sludge Bomb","Sleep Powder","Leech Seed"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Bright Powder","moves":["Giga Drain","Sludge Bomb","Sleep Powder","Leech Seed"],"tiers":["FCT0"]},
   },
   "Jigglypuff":{
-    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Relaxed","item":"Lax Incense","moves":["Sing","Wish","Mimic","DoubleSlap"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Relaxed","item":"Lax Incense","moves":["Sing","Wish","Mimic","Double Slap"],"tiers":["FCT0"]},
   },
   "Jolteon":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Cheri Berry","moves":["Thunderbolt","Thunder Wave","Attract","Protect"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Scope Lens","moves":["Thunderbolt","Dig","Double Kick","Roar"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Bold","item":"BrightPowder","moves":["Thunderbolt","Thunder Wave","Agility","Baton Pass"],"tiers":["FCT3","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Bold","item":"Bright Powder","moves":["Thunderbolt","Thunder Wave","Agility","Baton Pass"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Timid","item":"King's Rock","moves":["Thunderbolt","Thunder Wave","Bite","Shadow Ball"],"tiers":["FCT4","FCT5"]},
   },
   "Jumpluff":{
@@ -610,12 +610,12 @@ var SETDEX_E_FRONTIER = {
   },
   "Jynx":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Shell Bell","moves":["Ice Beam","Fake Out","Lovely Kiss","Attract"],"tiers":["FCT1","FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Impish","item":"BrightPowder","moves":["Perish Song","Mean Look","Lovely Kiss","Protect"],"tiers":["FCT2","FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Impish","item":"Bright Powder","moves":["Perish Song","Mean Look","Lovely Kiss","Protect"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Hardy","item":"Quick Claw","moves":["Dream Eater","Lovely Kiss","Attract","Substitute"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Lum Berry","moves":["Psychic","Ice Beam","Lovely Kiss","Fake Tears"],"tiers":["FCT4","FCT5"]},
   },
   "Kabuto":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Sitrus Berry","moves":["Mega Drain","Ancient Power","Sand-Attack","Protect"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Sitrus Berry","moves":["Mega Drain","Ancient Power","Sand Attack","Protect"],"tiers":["FCT0"]},
   },
   "Kabutops":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Scope Lens","moves":["Slash","Dig","Fury Cutter","Knock Off"],"tiers":["FCT0"]},
@@ -632,7 +632,7 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Focus Band","moves":["Dizzy Punch","Brick Break","Counter","Fake Out"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Lum Berry","moves":["Crush Claw","Shadow Ball","Attract","Rest"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Jolly","item":"Salac Berry","moves":["Reversal","Endure","Thunderbolt","Earthquake"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"BrightPowder","moves":["Mega Kick","Earthquake","Aerial Ace","Shadow Ball"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Bright Powder","moves":["Mega Kick","Earthquake","Aerial Ace","Shadow Ball"],"tiers":["FCT4","FCT5"]},
   },
   "Kecleon":{
     "Set 1": {"level":100,"evs":{"hp":168,"at":168,"df":168,"sa":0,"sd":0,"sp":0},"nature":"Naive","item":"Focus Band","moves":["Secret Power","Psybeam","Magic Coat","Seismic Toss"],"tiers":["FCT0"]},
@@ -652,7 +652,7 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Docile","item":"White Herb","moves":["Confusion","Will-O-Wisp","Future Sight","Light Screen"],"tiers":["FCT0"]},
   },
   "Koffing":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Quirky","item":"Poison Barb","moves":["Sludge","SmokeScreen","Torment","Haze"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Quirky","item":"Poison Barb","moves":["Sludge","Smokescreen","Torment","Haze"],"tiers":["FCT0"]},
   },
   "Krabby":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Hardy","item":"Focus Band","moves":["Crabhammer","Mud Shot","Flail","Knock Off"],"tiers":["FCT0"]},
@@ -664,16 +664,16 @@ var SETDEX_E_FRONTIER = {
   "Lanturn":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Cheri Berry","moves":["Surf","Confuse Ray","Attract","Thunder Wave"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Salac Berry","moves":["Flail","Endure","Thunderbolt","Surf"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"BrightPowder","moves":["Hydro Pump","Thunder","Confuse Ray","Rain Dance"],"tiers":["FCT3","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Bright Powder","moves":["Hydro Pump","Thunder","Confuse Ray","Rain Dance"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Surf","Thunderbolt","Ice Beam","Confuse Ray"],"tiers":["FCT4","FCT5"]},
   },
   "Lapras":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Bold","item":"Leftovers","moves":["Surf","Attract","Confuse Ray","Sing"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Timid","item":"Quick Claw","moves":["Surf","Ice Beam","Body Slam","Roar"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Docile","item":"BrightPowder","moves":["Double-Edge","Psychic","Confuse Ray","Dragon Dance"],"tiers":["FCT3","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Docile","item":"Bright Powder","moves":["Double-Edge","Psychic","Confuse Ray","Dragon Dance"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Lum Berry","moves":["Surf","Ice Beam","Thunderbolt","Psychic"],"tiers":["FCT4","FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Shell Bell","moves":["Psychic","Thunderbolt","Iron Tail","Double-Edge"],"tiers":["FCT5"]},
-    "Set 6": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"BrightPowder","moves":["Hydro Pump","Thunder","Rain Dance","Blizzard"],"tiers":["FCT5"]},
+    "Set 6": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Bright Powder","moves":["Hydro Pump","Thunder","Rain Dance","Blizzard"],"tiers":["FCT5"]},
     "Set 7": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Calm","item":"Leppa Berry","moves":["Sheer Cold","Horn Drill","Rest","Sleep Talk"],"tiers":["FCT5"]},
     "Set 8": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Calm","item":"Quick Claw","moves":["Sheer Cold","Horn Drill","Sing","Attract"],"tiers":["FCT5"]},
   },
@@ -685,7 +685,7 @@ var SETDEX_E_FRONTIER = {
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Quick Claw","moves":["Psychic","Thunderbolt","Ice Beam","Earthquake"],"tiers":["FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Focus Band","moves":["Dragon Claw","Thunderbolt","Ice Beam","Earthquake"],"tiers":["FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":168,"sd":0,"sp":0},"nature":"Docile","item":"Leftovers","moves":["Mist Ball","Shadow Ball","Charm","Reflect"],"tiers":["FCT5"]},
-    "Set 5": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Modest","item":"BrightPowder","moves":["Dragon Claw","Thunder Wave","Calm Mind","Recover"],"tiers":["FCT5"]},
+    "Set 5": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Modest","item":"Bright Powder","moves":["Dragon Claw","Thunder Wave","Calm Mind","Recover"],"tiers":["FCT5"]},
     "Set 6": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Shell Bell","moves":["Mist Ball","Dragon Claw","Attract","Thunder Wave"],"tiers":["FCT5"]},
     "Set 7": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Leftovers","moves":["Earthquake","Shadow Ball","Swagger","Psych Up"],"tiers":["FCT5"]},
     "Set 8": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Docile","item":"King's Rock","moves":["Psychic","Shadow Ball","Earthquake","Aerial Ace"],"tiers":["FCT5"]},
@@ -695,9 +695,9 @@ var SETDEX_E_FRONTIER = {
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Quick Claw","moves":["Psychic","Thunderbolt","Ice Beam","Earthquake"],"tiers":["FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Focus Band","moves":["Dragon Claw","Thunderbolt","Ice Beam","Earthquake"],"tiers":["FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Lum Berry","moves":["Luster Purge","Thunderbolt","Ice Beam","Dragon Claw"],"tiers":["FCT5"]},
-    "Set 5": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Modest","item":"BrightPowder","moves":["Dragon Claw","Thunder Wave","Calm Mind","Recover"],"tiers":["FCT5"]},
+    "Set 5": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Modest","item":"Bright Powder","moves":["Dragon Claw","Thunder Wave","Calm Mind","Recover"],"tiers":["FCT5"]},
     "Set 6": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Shell Bell","moves":["Luster Purge","Shadow Ball","Dragon Claw","Thunder Wave"],"tiers":["FCT5"]},
-    "Set 7": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"BrightPowder","moves":["Earthquake","Shadow Ball","Dragon Dance","Recover"],"tiers":["FCT5"]},
+    "Set 7": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Bright Powder","moves":["Earthquake","Shadow Ball","Dragon Dance","Recover"],"tiers":["FCT5"]},
     "Set 8": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Docile","item":"King's Rock","moves":["Psychic","Shadow Ball","Earthquake","Aerial Ace"],"tiers":["FCT5"]},
   },
   "Ledian":{
@@ -714,8 +714,8 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"Lax Incense","moves":["Ancient Power","Acid","Ingrain","Confuse Ray"],"tiers":["FCT0"]},
   },
   "Linoone":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"White Herb","moves":["Secret Power","Sand-Attack","Covet","Tickle"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Jolly","item":"Choice Band","moves":["Trick","Frustration","Thunder Wave","Sand-Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"White Herb","moves":["Secret Power","Sand Attack","Covet","Tickle"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Jolly","item":"Choice Band","moves":["Trick","Frustration","Thunder Wave","Sand Attack"],"tiers":["FCT0"]},
   },
   "Lombre":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Quirky","item":"Lax Incense","moves":["Water Pulse","Fake Out","Brick Break","Absorb"],"tiers":["FCT0"]},
@@ -746,7 +746,7 @@ var SETDEX_E_FRONTIER = {
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Scope Lens","moves":["Cross Chop","Earthquake","Flamethrower","Rock Slide"],"tiers":["FCT4","FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Scope Lens","moves":["Cross Chop","Double-Edge","Earthquake","Rock Slide"],"tiers":["FCT5"]},
     "Set 6": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Focus Band","moves":["Cross Chop","Earthquake","Counter","Rock Tomb"],"tiers":["FCT5"]},
-    "Set 7": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"BrightPowder","moves":["Focus Punch","Substitute","Attract","Double Team"],"tiers":["FCT5"]},
+    "Set 7": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Bright Powder","moves":["Focus Punch","Substitute","Attract","Double Team"],"tiers":["FCT5"]},
     "Set 8": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Focus Band","moves":["Revenge","Rock Slide","Facade","Counter"],"tiers":["FCT5"]},
   },
   "Machoke":{
@@ -757,7 +757,7 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Scope Lens","moves":["Seismic Toss","Revenge","Rock Tomb","Scary Face"],"tiers":["FCT0"]},
   },
   "Magby":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Lax Incense","moves":["Fire Punch","SmokeScreen","Confuse Ray","Smog"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Lax Incense","moves":["Fire Punch","Smokescreen","Confuse Ray","Smog"],"tiers":["FCT0"]},
   },
   "Magcargo":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Gentle","item":"Lax Incense","moves":["Rock Slide","Ember","Acid Armor","Sandstorm"],"tiers":["FCT0"]},
@@ -767,8 +767,8 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Hardy","item":"Focus Band","moves":["Flail","---","---","---"],"tiers":["FCT0"]},
   },
   "Magmar":{
-    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":168,"sd":0,"sp":0},"nature":"Relaxed","item":"Rawst Berry","moves":["Flamethrower","SmokeScreen","Brick Break","Barrier"],"tiers":["FCT1","FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Quick Claw","moves":["Fire Blast","SmokeScreen","Thunder Punch","Confuse Ray"],"tiers":["FCT2","FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":168,"sd":0,"sp":0},"nature":"Relaxed","item":"Rawst Berry","moves":["Flamethrower","Smokescreen","Brick Break","Barrier"],"tiers":["FCT1","FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Quick Claw","moves":["Fire Blast","Smokescreen","Thunder Punch","Confuse Ray"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Impish","item":"Scope Lens","moves":["Mega Kick","Cross Chop","Iron Tail","Counter"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"Scope Lens","moves":["Flamethrower","Psychic","Cross Chop","Confuse Ray"],"tiers":["FCT4","FCT5"]},
   },
@@ -792,7 +792,7 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Naughty","item":"Black Belt","moves":["Karate Chop","Low Kick","Screech","Swagger"],"tiers":["FCT0"]},
   },
   "Mantine":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Docile","item":"Mystic Water","moves":["BubbleBeam","Aerial Ace","Rain Dance","Icy Wind"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Docile","item":"Mystic Water","moves":["Bubble Beam","Aerial Ace","Rain Dance","Icy Wind"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Modest","item":"Shell Bell","moves":["Surf","Ice Beam","Rain Dance","Confuse Ray"],"tiers":["FCT0"]},
   },
   "Mareep":{
@@ -816,7 +816,7 @@ var SETDEX_E_FRONTIER = {
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Lax Incense","moves":["Hydro Pump","Ice Beam","Giga Drain","Stun Spore"],"tiers":["FCT0"]},
   },
   "Mawile":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"BrightPowder","moves":["Crunch","Fake Tears","Iron Defense","Baton Pass"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Bright Powder","moves":["Crunch","Fake Tears","Iron Defense","Baton Pass"],"tiers":["FCT0"]},
   },
   "Medicham":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Docile","item":"Focus Band","moves":["Psychic","Hi Jump Kick","Calm Mind","Baton Pass"],"tiers":["FCT1","FCT5"]},
@@ -828,10 +828,10 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Naughty","item":"Mental Herb","moves":["Hi Jump Kick","Meditate","Swagger","Psych Up"],"tiers":["FCT0"]},
   },
   "Meganium":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"BrightPowder","moves":["SolarBeam","Sunny Day","Light Screen","Synthesis"],"tiers":["FCT1","FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Calm","item":"Leftovers","moves":["Leech Seed","Substitute","Double Team","GrassWhistle"],"tiers":["FCT2","FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Bright Powder","moves":["Solar Beam","Sunny Day","Light Screen","Synthesis"],"tiers":["FCT1","FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Calm","item":"Leftovers","moves":["Leech Seed","Substitute","Double Team","Grass Whistle"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Jolly","item":"Salac Berry","moves":["Earthquake","Flail","Endure","Giga Drain"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":168,"sd":0,"sp":0},"nature":"Hardy","item":"BrightPowder","moves":["Giga Drain","Earthquake","Ancient Power","Body Slam"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":168,"sd":0,"sp":0},"nature":"Hardy","item":"Bright Powder","moves":["Giga Drain","Earthquake","Ancient Power","Body Slam"],"tiers":["FCT4","FCT5"]},
   },
   "Meowth":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Quirky","item":"Persim Berry","moves":["Slash","Bite","Screech","Fake Out"],"tiers":["FCT0"]},
@@ -842,9 +842,10 @@ var SETDEX_E_FRONTIER = {
     "Set 3": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":0,"sd":0,"sp":168},"nature":"Adamant","item":"Chesto Berry","moves":["Earthquake","Meteor Mash","Double Team","Rest"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Quick Claw","moves":["Meteor Mash","Psychic","Earthquake","Shadow Ball"],"tiers":["FCT4","FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":0,"sd":0,"sp":168},"nature":"Jolly","item":"Quick Claw","moves":["Explosion","Earthquake","Rock Slide","Brick Break"],"tiers":["FCT5"]},
-    "Set 6": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"BrightPowder","moves":["Meteor Mash","Psychic","Ice Punch","Thunder Punch"],"tiers":["FCT5"]},
+    "Set 6": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Bright Powder","moves":["Meteor Mash","Psychic","Ice Punch","Thunder Punch"],"tiers":["FCT5"]},
     "Set 7": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Shell Bell","moves":["Earthquake","Shadow Ball","Ice Punch","Thunder Punch"],"tiers":["FCT5"]},
     "Set 8": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":0,"sd":0,"sp":168},"nature":"Adamant","item":"Quick Claw","moves":["Meteor Mash","Earthquake","Brick Break","Explosion"],"tiers":["FCT5"]},
+    "KULLA": {"level":70,"evs":{"hp":188,"at":160,"df":0,"sa":160,"sd":0,"sp":0},"nature":"Brave","item":"Lum Berry","moves":["Meteor Mash","Earthquake","Thunder Punch","Explosion"],"tiers":["FCT5"]},
   },
   "Metang":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Hardy","item":"Focus Band","moves":["Metal Claw","Confusion","Pursuit","Scary Face"],"tiers":["FCT0"]},
@@ -876,7 +877,7 @@ var SETDEX_E_FRONTIER = {
   "Misdreavus":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Impish","item":"Focus Band","moves":["Pain Split","Shadow Ball","Confuse Ray","Thunder Wave"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Bold","item":"Leftovers","moves":["Psychic","Attract","Thunder Wave","Confuse Ray"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Bold","item":"BrightPowder","moves":["Perish Song","Mean Look","Thunder Wave","Confuse Ray"],"tiers":["FCT3","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Bold","item":"Bright Powder","moves":["Perish Song","Mean Look","Thunder Wave","Confuse Ray"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Timid","item":"Lum Berry","moves":["Destiny Bond","Psychic","Shadow Ball","Thunderbolt"],"tiers":["FCT4","FCT5"]},
   },
   "Moltres":{
@@ -891,7 +892,7 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"Leftovers","moves":["Psychic","Magical Leaf","Fake Out","Reflect"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Liechi Berry","moves":["Baton Pass","Swagger","Psych Up","Psychic"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Modest","item":"Choice Band","moves":["Trick","Torment","Psychic","Thunderbolt"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Modest","item":"BrightPowder","moves":["Psychic","Thunderbolt","Ice Punch","Fire Punch"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Modest","item":"Bright Powder","moves":["Psychic","Thunderbolt","Ice Punch","Fire Punch"],"tiers":["FCT4","FCT5"]},
   },
   "Mudkip":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Focus Band","moves":["Whirlpool","Endeavor","Mud Sport","Mud-Slap"],"tiers":["FCT0"]},
@@ -903,8 +904,8 @@ var SETDEX_E_FRONTIER = {
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Brave","item":"Quick Claw","moves":["Sludge Bomb","Brick Break","Giga Drain","Explosion"],"tiers":["FCT4","FCT5"]},
   },
   "Murkrow":{
-    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Quirky","item":"Lax Incense","moves":["Faint Attack","Fly","Torment","Taunt"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Quirky","item":"BrightPowder","moves":["Perish Song","Mean Look","Double Team","Thunder Wave"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Quirky","item":"Lax Incense","moves":["Feint Attack","Fly","Torment","Taunt"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Quirky","item":"Bright Powder","moves":["Perish Song","Mean Look","Double Team","Thunder Wave"],"tiers":["FCT0"]},
   },
   "Natu":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"TwistedSpoon","moves":["Night Shade","Future Sight","Confuse Ray","Flash"],"tiers":["FCT0"]},
@@ -939,7 +940,7 @@ var SETDEX_E_FRONTIER = {
   "Ninetales":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Rawst Berry","moves":["Flamethrower","Roar","Confuse Ray","Will-O-Wisp"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Quirky","item":"Lum Berry","moves":["Heat Wave","Body Slam","Grudge","Sunny Day"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Quirky","item":"BrightPowder","moves":["Fire Blast","Iron Tail","Confuse Ray","Attract"],"tiers":["FCT3","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Quirky","item":"Bright Powder","moves":["Fire Blast","Iron Tail","Confuse Ray","Attract"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Quirky","item":"White Herb","moves":["Overheat","Double-Edge","Confuse Ray","Will-O-Wisp"],"tiers":["FCT4","FCT5"]},
   },
   "Ninjask":{
@@ -947,8 +948,8 @@ var SETDEX_E_FRONTIER = {
     "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Quirky","item":"Focus Band","moves":["Slash","Shadow Ball","Swords Dance","Baton Pass"],"tiers":["FCT0"]},
   },
   "Noctowl":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"Persim Berry","moves":["Confusion","Aerial Ace","Faint Attack","Reflect"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Persim Berry","moves":["Psychic","Faint Attack","Aerial Ace","Reflect"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"Persim Berry","moves":["Confusion","Aerial Ace","Feint Attack","Reflect"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Persim Berry","moves":["Psychic","Feint Attack","Aerial Ace","Reflect"],"tiers":["FCT0"]},
   },
   "Nosepass":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Sassy","item":"Hard Stone","moves":["Rock Slide","Shock Wave","Thunder Wave","Sandstorm"],"tiers":["FCT0"]},
@@ -957,7 +958,7 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Hardy","item":"Lax Incense","moves":["Ember","Magnitude","Rock Tomb","Sandstorm"],"tiers":["FCT0"]},
   },
   "Nuzleaf":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Sitrus Berry","moves":["Extrasensory","Fake Out","Razor Wind","Faint Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Sitrus Berry","moves":["Extrasensory","Fake Out","Razor Wind","Feint Attack"],"tiers":["FCT0"]},
   },
   "Octillery":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Shell Bell","moves":["Octazooka","Aurora Beam","Psybeam","Rock Blast"],"tiers":["FCT0"]},
@@ -970,7 +971,7 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":168,"sd":0,"sp":0},"nature":"Quirky","item":"Sitrus Berry","moves":["Mud Shot","Water Gun","Ancient Power","Tickle"],"tiers":["FCT0"]},
   },
   "Omastar":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Shell Bell","moves":["BubbleBeam","Spike Cannon","Tickle","Ancient Power"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Shell Bell","moves":["Bubble Beam","Spike Cannon","Tickle","Ancient Power"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Modest","item":"Sitrus Berry","moves":["Hydro Pump","Rain Dance","Ice Beam","Protect"],"tiers":["FCT0"]},
   },
   "Onix":{
@@ -998,14 +999,14 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Rash","item":"Sitrus Berry","moves":["Sweet Kiss","Thunder Wave","Attract","Shock Wave"],"tiers":["FCT0"]},
   },
   "Pidgeot":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Hardy","item":"Sharp Beak","moves":["Aerial Ace","FeatherDance","Mud-Slap","Faint Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Hardy","item":"Sharp Beak","moves":["Aerial Ace","Feather Dance","Mud-Slap","Feint Attack"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Scope Lens","moves":["Return","Aerial Ace","Steel Wing","Mud-Slap"],"tiers":["FCT0"]},
   },
   "Pidgeotto":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Quirky","item":"White Herb","moves":["Aerial Ace","Quick Attack","FeatherDance","Sand-Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Quirky","item":"White Herb","moves":["Aerial Ace","Quick Attack","Feather Dance","Sand Attack"],"tiers":["FCT0"]},
   },
   "Pidgey":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Lonely","item":"Sharp Beak","moves":["Gust","Sand-Attack","Whirlwind","Quick Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Lonely","item":"Sharp Beak","moves":["Gust","Sand Attack","Whirlwind","Quick Attack"],"tiers":["FCT0"]},
   },
   "Pikachu":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Docile","item":"Light Ball","moves":["Thunder Punch","Thunder Wave","Double Team","Quick Attack"],"tiers":["FCT0"]},
@@ -1033,10 +1034,10 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Relaxed","item":"Mystic Water","moves":["Hypnosis","Icy Wind","Water Gun","Rain Dance"],"tiers":["FCT0"]},
   },
   "Poliwhirl":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Petaya Berry","moves":["Water Pulse","DoubleSlap","Icy Wind","Rain Dance"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Petaya Berry","moves":["Water Pulse","Double Slap","Icy Wind","Rain Dance"],"tiers":["FCT0"]},
   },
   "Poliwrath":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Black Belt","moves":["Submission","Dig","Rock Tomb","BubbleBeam"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Black Belt","moves":["Submission","Dig","Rock Tomb","Bubble Beam"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Chesto Berry","moves":["Brick Break","Hypnosis","Rest","Belly Drum"],"tiers":["FCT0"]},
   },
   "Ponyta":{
@@ -1044,7 +1045,7 @@ var SETDEX_E_FRONTIER = {
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Quirky","item":"Sitrus Berry","moves":["Flamethrower","Body Slam","Double Kick","Double Team"],"tiers":["FCT0"]},
   },
   "Poochyena":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"Petaya Berry","moves":["Crunch","Swagger","Roar","Sand-Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"Petaya Berry","moves":["Crunch","Swagger","Roar","Sand Attack"],"tiers":["FCT0"]},
   },
   "Porygon":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"Sitrus Berry","moves":["Psybeam","Icy Wind","Recycle","Agility"],"tiers":["FCT0"]},
@@ -1052,9 +1053,9 @@ var SETDEX_E_FRONTIER = {
   },
   "Porygon2":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Adamant","item":"Leftovers","moves":["Tri Attack","Aerial Ace","Shadow Ball","Recover"],"tiers":["FCT1","FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Lum Berry","moves":["SolarBeam","Sunny Day","Thunder Wave","Recover"],"tiers":["FCT2","FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Lum Berry","moves":["Solar Beam","Sunny Day","Thunder Wave","Recover"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Lum Berry","moves":["Psychic","Tri Attack","Thunder Wave","Recover"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"BrightPowder","moves":["Psychic","Thunderbolt","Ice Beam","Recover"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Bright Powder","moves":["Psychic","Thunderbolt","Ice Beam","Recover"],"tiers":["FCT4","FCT5"]},
   },
   "Primeape":{
     "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Quirky","item":"Scope Lens","moves":["Karate Chop","Counter","Swagger","Screech"],"tiers":["FCT0"]},
@@ -1074,25 +1075,25 @@ var SETDEX_E_FRONTIER = {
     "Set 4": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":168,"sp":0},"nature":"Sassy","item":"Leftovers","moves":["Surf","Earthquake","Ice Beam","Amnesia"],"tiers":["FCT4","FCT5"]},
   },
   "Quilava":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Focus Band","moves":["Flame Wheel","Fury Swipes","Swift","SmokeScreen"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"BrightPowder","moves":["Flamethrower","Crush Claw","Body Slam","SmokeScreen"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Focus Band","moves":["Flame Wheel","Fury Swipes","Swift","Smokescreen"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Bright Powder","moves":["Flamethrower","Crush Claw","Body Slam","Smokescreen"],"tiers":["FCT0"]},
   },
   "Qwilfish":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":252,"sp":0},"nature":"Impish","item":"Cheri Berry","moves":["BubbleBeam","Pin Missile","Spikes","Minimize"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":252,"sp":0},"nature":"Impish","item":"Cheri Berry","moves":["Bubble Beam","Pin Missile","Spikes","Minimize"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"Focus Band","moves":["Revenge","Sludge Bomb","Shadow Ball","Destiny Bond"],"tiers":["FCT0"]},
   },
   "Raichu":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":168,"sa":168,"sd":0,"sp":168},"nature":"Modest","item":"BrightPowder","moves":["Thunderbolt","Quick Attack","Light Screen","Double Team"],"tiers":["FCT1","FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":168,"sa":168,"sd":0,"sp":168},"nature":"Modest","item":"Bright Powder","moves":["Thunderbolt","Quick Attack","Light Screen","Double Team"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Lum Berry","moves":["Thunderbolt","Reversal","Endure","Agility"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Docile","item":"Cheri Berry","moves":["Thunder","Rain Dance","Iron Tail","Attract"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"BrightPowder","moves":["Thunderbolt","Thunder Wave","Protect","Mega Kick"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Bright Powder","moves":["Thunderbolt","Thunder Wave","Protect","Mega Kick"],"tiers":["FCT4","FCT5"]},
   },
   "Raikou":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Chesto Berry","moves":["Thunderbolt","Thunder Wave","Calm Mind","Rest"],"tiers":["FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"BrightPowder","moves":["Thunder","Rain Dance","Double Team","Reflect"],"tiers":["FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Bright Powder","moves":["Thunder","Rain Dance","Double Team","Reflect"],"tiers":["FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"King's Rock","moves":["Thunderbolt","Thunder Wave","Quick Attack","Roar"],"tiers":["FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Thunderbolt","Bite","Thunder Wave","Reflect"],"tiers":["FCT5"]},
-    "Set 5": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"BrightPowder","moves":["Thunderbolt","Double-Edge","Roar","Reflect"],"tiers":["FCT5"]},
+    "Set 5": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Bright Powder","moves":["Thunderbolt","Double-Edge","Roar","Reflect"],"tiers":["FCT5"]},
     "Set 6": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Modest","item":"Chesto Berry","moves":["Thunderbolt","Calm Mind","Substitute","Rest"],"tiers":["FCT5"]},
   },
   "Ralts":{
@@ -1101,7 +1102,7 @@ var SETDEX_E_FRONTIER = {
   "Rapidash":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Quiet","item":"Charcoal","moves":["Flamethrower","Double Kick","Quick Attack","Protect"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Docile","item":"Leftovers","moves":["Fire Blast","Bounce","Double Team","Attract"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":168,"at":0,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Modest","item":"White Herb","moves":["Overheat","SolarBeam","Sunny Day","Hypnosis"],"tiers":["FCT3","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":168,"at":0,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Modest","item":"White Herb","moves":["Overheat","Solar Beam","Sunny Day","Hypnosis"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Docile","item":"White Herb","moves":["Overheat","Double-Edge","Iron Tail","Double Kick"],"tiers":["FCT4","FCT5"]},
   },
   "Raticate":{
@@ -1113,7 +1114,7 @@ var SETDEX_E_FRONTIER = {
   },
   "Regice":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Chesto Berry","moves":["Ice Beam","Thunderbolt","Amnesia","Rest"],"tiers":["FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"BrightPowder","moves":["Thunder","Rain Dance","Blizzard","Brick Break"],"tiers":["FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Bright Powder","moves":["Thunder","Rain Dance","Blizzard","Brick Break"],"tiers":["FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Lum Berry","moves":["Ice Beam","Thunderbolt","Thunder Wave","Explosion"],"tiers":["FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Bold","item":"Leftovers","moves":["Ice Beam","Hail","Double Team","Thunder Wave"],"tiers":["FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":168,"sd":0,"sp":0},"nature":"Brave","item":"Leftovers","moves":["Earthquake","Ice Beam","Curse","Counter"],"tiers":["FCT5"]},
@@ -1125,11 +1126,11 @@ var SETDEX_E_FRONTIER = {
     "Set 3": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"Chesto Berry","moves":["Rock Slide","Earthquake","Curse","Rest"],"tiers":["FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":0,"sd":168,"sp":0},"nature":"Careful","item":"Leftovers","moves":["Rock Slide","Brick Break","Double Team","Thunder Wave"],"tiers":["FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Quick Claw","moves":["Hyper Beam","Focus Punch","Rock Slide","Double Team"],"tiers":["FCT5"]},
-    "Set 6": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"BrightPowder","moves":["Swagger","Psych Up","Rock Slide","Explosion"],"tiers":["FCT5"]},
+    "Set 6": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"Bright Powder","moves":["Swagger","Psych Up","Rock Slide","Explosion"],"tiers":["FCT5"]},
   },
   "Registeel":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Chesto Berry","moves":["Metal Claw","Curse","Amnesia","Rest"],"tiers":["FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":168,"sd":0,"sp":0},"nature":"Quiet","item":"BrightPowder","moves":["Thunderbolt","Ice Punch","Earthquake","Aerial Ace"],"tiers":["FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":168,"sd":0,"sp":0},"nature":"Quiet","item":"Bright Powder","moves":["Thunderbolt","Ice Punch","Earthquake","Aerial Ace"],"tiers":["FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Quick Claw","moves":["Ancient Power","Amnesia","Counter","Explosion"],"tiers":["FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Impish","item":"Leftovers","moves":["Ancient Power","Earthquake","Double Team","Thunder Wave"],"tiers":["FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Leftovers","moves":["Focus Punch","Substitute","Toxic","Double Team"],"tiers":["FCT5"]},
@@ -1140,7 +1141,7 @@ var SETDEX_E_FRONTIER = {
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Sassy","item":"Chesto Berry","moves":["Earthquake","Rock Slide","Amnesia","Rest"],"tiers":["FCT0"]},
   },
   "Remoraid":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Quirky","item":"Petaya Berry","moves":["BubbleBeam","Aurora Beam","Psybeam","Protect"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Quirky","item":"Petaya Berry","moves":["Bubble Beam","Aurora Beam","Psybeam","Protect"],"tiers":["FCT0"]},
   },
   "Rhydon":{
     "Set 1": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Quick Claw","moves":["Earthquake","Rock Tomb","Scary Face","Brick Break"],"tiers":["FCT1","FCT5"]},
@@ -1152,25 +1153,25 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Hardy","item":"Focus Band","moves":["Rock Blast","Dig","Scary Face","Roar"],"tiers":["FCT0"]},
   },
   "Roselia":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"Pecha Berry","moves":["Magical Leaf","Toxic","GrassWhistle","Cotton Spore"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"Quick Claw","moves":["Giga Drain","Sludge Bomb","GrassWhistle","Synthesis"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"Pecha Berry","moves":["Magical Leaf","Toxic","Grass Whistle","Cotton Spore"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"Quick Claw","moves":["Giga Drain","Sludge Bomb","Grass Whistle","Synthesis"],"tiers":["FCT0"]},
   },
   "Sableye":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Lonely","item":"BlackGlasses","moves":["Faint Attack","Confuse Ray","Knock Off","Fake Out"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":168,"sd":0,"sp":0},"nature":"Quirky","item":"Lum Berry","moves":["Shadow Ball","Faint Attack","Confuse Ray","Recover"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Lonely","item":"BlackGlasses","moves":["Feint Attack","Confuse Ray","Knock Off","Fake Out"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":168,"sd":0,"sp":0},"nature":"Quirky","item":"Lum Berry","moves":["Shadow Ball","Feint Attack","Confuse Ray","Recover"],"tiers":["FCT0"]},
   },
   "Salamence":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Hardy","item":"King's Rock","moves":["Dragon Claw","Aerial Ace","Headbutt","Rock Slide"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Hardy","item":"Leftovers","moves":["Double-Edge","Crunch","Swagger","Protect"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Salac Berry","moves":["Double-Edge","Earthquake","Crunch","Endure"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"BrightPowder","moves":["Double-Edge","Earthquake","Aerial Ace","Dragon Dance"],"tiers":["FCT4","FCT5"]},
-    "Set 5": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"BrightPowder","moves":["Facade","Earthquake","Rock Slide","Dragon Dance"],"tiers":["FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Bright Powder","moves":["Double-Edge","Earthquake","Aerial Ace","Dragon Dance"],"tiers":["FCT4","FCT5"]},
+    "Set 5": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Bright Powder","moves":["Facade","Earthquake","Rock Slide","Dragon Dance"],"tiers":["FCT5"]},
     "Set 6": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Hardy","item":"Lum Berry","moves":["Headbutt","Aerial Ace","Crunch","Dragon Dance"],"tiers":["FCT5"]},
     "Set 7": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Flamethrower","Dragon Claw","Crunch","Brick Break"],"tiers":["FCT5"]},
     "Set 8": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Leftovers","moves":["Flamethrower","Dragon Claw","Crunch","Attract"],"tiers":["FCT5"]},
   },
   "Sandshrew":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"Soft Sand","moves":["Dig","Rock Tomb","Sandstorm","Sand-Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"Soft Sand","moves":["Dig","Rock Tomb","Sandstorm","Sand Attack"],"tiers":["FCT0"]},
   },
   "Sandslash":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"Sitrus Berry","moves":["Crush Claw","Rock Slide","Swift","Sandstorm"],"tiers":["FCT0"]},
@@ -1180,20 +1181,20 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Leftovers","moves":["Leaf Blade","Leech Seed","Aerial Ace","Detect"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Leaf Blade","Thunder Punch","Attract","Double Team"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Docile","item":"Scope Lens","moves":["Leaf Blade","Earthquake","Crush Claw","Aerial Ace"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"BrightPowder","moves":["Leaf Blade","Dragon Claw","Crunch","Thunder Punch"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Bright Powder","moves":["Leaf Blade","Dragon Claw","Crunch","Thunder Punch"],"tiers":["FCT4","FCT5"]},
   },
   "Scizor":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"Focus Band","moves":["Metal Claw","Aerial Ace","Counter","Quick Attack"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"Quick Claw","moves":["Silver Wind","Steel Wing","Swords Dance","Light Screen"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Careful","item":"Focus Band","moves":["Reversal","Endure","Agility","Slash"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Careful","item":"BrightPowder","moves":["Silver Wind","Swords Dance","Agility","Baton Pass"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Careful","item":"Bright Powder","moves":["Silver Wind","Swords Dance","Agility","Baton Pass"],"tiers":["FCT4","FCT5"]},
   },
   "Scyther":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"Liechi Berry","moves":["Fury Cutter","Aerial Ace","Light Screen","Double Team"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"BrightPowder","moves":["Silver Wind","Aerial Ace","Swords Dance","Double Team"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Bright Powder","moves":["Silver Wind","Aerial Ace","Swords Dance","Double Team"],"tiers":["FCT0"]},
   },
   "Seadra":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Sassy","item":"Mystic Water","moves":["Aurora Beam","SmokeScreen","Water Gun","Rain Dance"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Sassy","item":"Mystic Water","moves":["Aurora Beam","Smokescreen","Water Gun","Rain Dance"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Docile","item":"Shell Bell","moves":["Hydro Pump","Frustration","Dragon Breath","Dragon Dance"],"tiers":["FCT0"]},
   },
   "Seaking":{
@@ -1232,9 +1233,9 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"Cheri Berry","moves":["Icicle Spear","Supersonic","Clamp","Withdraw"],"tiers":["FCT0"]},
   },
   "Shiftry":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":168,"sa":168,"sd":168,"sp":0},"nature":"Quiet","item":"Miracle Seed","moves":["Giga Drain","Faint Attack","Quick Attack","Fake Out"],"tiers":["FCT1","FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":168,"sa":168,"sd":168,"sp":0},"nature":"Quiet","item":"Miracle Seed","moves":["Giga Drain","Feint Attack","Quick Attack","Fake Out"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Impish","item":"Chesto Berry","moves":["Leech Seed","Dig","Double Team","Rest"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Focus Band","moves":["SolarBeam","Sunny Day","Explosion","Synthesis"],"tiers":["FCT3","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Focus Band","moves":["Solar Beam","Sunny Day","Explosion","Synthesis"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Focus Band","moves":["Explosion","Giga Drain","Mega Kick","Fake Out"],"tiers":["FCT4","FCT5"]},
   },
   "Shroomish":{
@@ -1254,7 +1255,7 @@ var SETDEX_E_FRONTIER = {
   },
   "Skarmory":{
     "Set 1": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Scope Lens","moves":["Steel Wing","Air Cutter","Counter","Agility"],"tiers":["FCT1","FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":0,"sd":168,"sp":0},"nature":"Careful","item":"BrightPowder","moves":["Spikes","Roar","Drill Peck","Toxic"],"tiers":["FCT2","FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":0,"sd":168,"sp":0},"nature":"Careful","item":"Bright Powder","moves":["Spikes","Roar","Drill Peck","Toxic"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Careful","item":"Chesto Berry","moves":["Toxic","Curse","Rest","Fly"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Quick Claw","moves":["Drill Peck","Steel Wing","Counter","Rock Slide"],"tiers":["FCT4","FCT5"]},
   },
@@ -1262,13 +1263,14 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Persim Berry","moves":["Mega Drain","Confusion","Cotton Spore","Synthesis"],"tiers":["FCT0"]},
   },
   "Skitty":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"BrightPowder","moves":["Sing","Attract","Charm","DoubleSlap"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"Bright Powder","moves":["Sing","Attract","Charm","Double Slap"],"tiers":["FCT0"]},
   },
   "Slaking":{
     "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Scope Lens","moves":["Yawn","Bulk Up","Swagger","Aerial Ace"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"Leftovers","moves":["Mega Kick","Shadow Ball","Yawn","Amnesia"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"Choice Band","moves":["Earthquake","Shadow Ball","Aerial Ace","Brick Break"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":252,"sp":0},"nature":"Modest","item":"Lum Berry","moves":["Thunderbolt","Flamethrower","Ice Beam","Yawn"],"tiers":["FCT4","FCT5"]},
+    "LAKHMU": {"level":70,"evs":{"hp":4,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Choice Band","moves":["Hyper Beam","Earthquake","Shadow Ball","Aerial Ace"],"tiers":["FCT5"]},
   },
   "Slakoth":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Quirky","item":"Leftovers","moves":["Yawn","Scratch","Encore","Counter"],"tiers":["FCT0"]},
@@ -1292,13 +1294,13 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Sassy","item":"Sitrus Berry","moves":["Ember","Rock Slide","Yawn","Body Slam"],"tiers":["FCT0"]},
   },
   "Smeargle":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Hardy","item":"King's Rock","moves":["ExtremeSpeed","Fake Out","Quick Attack","Mach Punch"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Hardy","item":"King's Rock","moves":["Extreme Speed","Fake Out","Quick Attack","Mach Punch"],"tiers":["FCT0"]},
   },
   "Smoochum":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"BrightPowder","moves":["Sweet Kiss","Sing","Mud-Slap","Fake Out"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"Bright Powder","moves":["Sweet Kiss","Sing","Mud-Slap","Fake Out"],"tiers":["FCT0"]},
   },
   "Sneasel":{
-    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Relaxed","item":"Persim Berry","moves":["Faint Attack","Fake Out","Icy Wind","Quick Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Relaxed","item":"Persim Berry","moves":["Feint Attack","Fake Out","Icy Wind","Quick Attack"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":0,"sp":168},"nature":"Jolly","item":"King's Rock","moves":["Crush Claw","Brick Break","Aerial Ace","Screech"],"tiers":["FCT0"]},
   },
   "Snorlax":{
@@ -1325,13 +1327,13 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Docile","item":"Liechi Berry","moves":["Fury Attack","Pursuit","Mirror Move","Protect"],"tiers":["FCT0"]},
   },
   "Spheal":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"NeverMeltIce","moves":["Ice Ball","Water Pulse","Hail","Mud-Slap"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Never-Melt Ice","moves":["Ice Ball","Water Pulse","Hail","Mud-Slap"],"tiers":["FCT0"]},
   },
   "Spinarak":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Quirky","item":"Liechi Berry","moves":["Signal Beam","Night Shade","Spider Web","Scary Face"],"tiers":["FCT0"]},
   },
   "Spinda":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"Sitrus Berry","moves":["Dizzy Punch","Teeter Dance","Psybeam","Faint Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"Sitrus Berry","moves":["Dizzy Punch","Teeter Dance","Psybeam","Feint Attack"],"tiers":["FCT0"]},
   },
   "Spoink":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"Sitrus Berry","moves":["Psywave","Bounce","Magic Coat","Confuse Ray"],"tiers":["FCT0"]},
@@ -1340,7 +1342,7 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Sitrus Berry","moves":["Water Pulse","Bite","Withdraw","Protect"],"tiers":["FCT0"]},
   },
   "Stantler":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Gentle","item":"TwistedSpoon","moves":["Extrasensory","Confuse Ray","Stomp","Sand-Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Gentle","item":"TwistedSpoon","moves":["Extrasensory","Confuse Ray","Stomp","Sand Attack"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Lax Incense","moves":["Frustration","Shadow Ball","Thunder Wave","Confuse Ray"],"tiers":["FCT0"]},
   },
   "Starmie":{
@@ -1350,11 +1352,11 @@ var SETDEX_E_FRONTIER = {
     "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Psychic","Thunderbolt","Ice Beam","Recover"],"tiers":["FCT4","FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Surf","Psychic","Recover","Light Screen"],"tiers":["FCT5"]},
     "Set 6": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Calm","item":"Leftovers","moves":["Surf","Confuse Ray","Thunder Wave","Recover"],"tiers":["FCT5"]},
-    "Set 7": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"BrightPowder","moves":["Psychic","Ice Beam","Cosmic Power","Recover"],"tiers":["FCT5"]},
-    "Set 8": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"BrightPowder","moves":["Surf","Thunderbolt","Cosmic Power","Recover"],"tiers":["FCT5"]},
+    "Set 7": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Bright Powder","moves":["Psychic","Ice Beam","Cosmic Power","Recover"],"tiers":["FCT5"]},
+    "Set 8": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Bright Powder","moves":["Surf","Thunderbolt","Cosmic Power","Recover"],"tiers":["FCT5"]},
   },
   "Staryu":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Shell Bell","moves":["BubbleBeam","Minimize","Swift","Light Screen"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Shell Bell","moves":["Bubble Beam","Minimize","Swift","Light Screen"],"tiers":["FCT0"]},
   },
   "Steelix":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"Sitrus Berry","moves":["Earthquake","Dragon Breath","Rock Tomb","Roar"],"tiers":["FCT1","FCT5"]},
@@ -1363,26 +1365,26 @@ var SETDEX_E_FRONTIER = {
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"Quick Claw","moves":["Earthquake","Iron Tail","Double-Edge","Explosion"],"tiers":["FCT4","FCT5"]},
   },
   "Sudowoodo":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Hardy","item":"Hard Stone","moves":["Rock Slide","Faint Attack","Sandstorm","Block"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Hardy","item":"Hard Stone","moves":["Rock Slide","Feint Attack","Sandstorm","Block"],"tiers":["FCT0"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Hardy","item":"Focus Band","moves":["Mega Kick","Earthquake","Low Kick","Selfdestruct"],"tiers":["FCT0"]},
   },
   "Suicune":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Chesto Berry","moves":["Surf","Double Team","Calm Mind","Rest"],"tiers":["FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Calm","item":"Leftovers","moves":["Toxic","Dive","Double Team","Protect"],"tiers":["FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Lum Berry","moves":["Surf","Ice Beam","Rain Dance","Roar"],"tiers":["FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"BrightPowder","moves":["Surf","Ice Beam","Bite","Reflect"],"tiers":["FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Bright Powder","moves":["Surf","Ice Beam","Bite","Reflect"],"tiers":["FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Lum Berry","moves":["Surf","Ice Beam","Calm Mind","Icy Wind"],"tiers":["FCT5"]},
     "Set 6": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Modest","item":"Chesto Berry","moves":["Surf","Ice Beam","Calm Mind","Rest"],"tiers":["FCT5"]},
   },
   "Sunflora":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Quirky","item":"Persim Berry","moves":["Petal Dance","Ingrain","Leech Seed","Light Screen"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Quiet","item":"Leftovers","moves":["Giga Drain","GrassWhistle","Growth","Double Team"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Quiet","item":"Leftovers","moves":["Giga Drain","Grass Whistle","Growth","Double Team"],"tiers":["FCT0"]},
   },
   "Sunkern":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"Lax Incense","moves":["Mega Drain","Helping Hand","Sunny Day","Light Screen"],"tiers":["FCT0"]},
   },
   "Surskit":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"Mystic Water","moves":["BubbleBeam","Rain Dance","Sweet Scent","Quick Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Relaxed","item":"Mystic Water","moves":["Bubble Beam","Rain Dance","Sweet Scent","Quick Attack"],"tiers":["FCT0"]},
   },
   "Swablu":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Lonely","item":"Mental Herb","moves":["Take Down","Dream Eater","Sing","Attract"],"tiers":["FCT0"]},
@@ -1396,6 +1398,7 @@ var SETDEX_E_FRONTIER = {
     "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Docile","item":"Quick Claw","moves":["Surf","Earthquake","Counter","Mirror Coat"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Brave","item":"Shell Bell","moves":["Surf","Earthquake","Ice Beam","Counter"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Shell Bell","moves":["Surf","Earthquake","Ice Beam","Mirror Coat"],"tiers":["FCT4","FCT5"]},
+    "ENKI": {"level":70,"evs":{"hp":252,"at":0,"df":136,"sa":116,"sd":0,"sp":0},"nature":"Relaxed","item":"Soft Sand","moves":["Surf","Earthquake","Ice Beam","Toxic"],"tiers":["FCT5"]},
   },
   "Swellow":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Adamant","item":"King's Rock","moves":["Fly","Endeavor","Facade","Quick Attack"],"tiers":["FCT0"]},
@@ -1415,13 +1418,13 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Persim Berry","moves":["Earthquake","Thrash","Swagger","Facade"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Chesto Berry","moves":["Double-Edge","Earthquake","Double Team","Rest"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Leftovers","moves":["Double-Edge","Earthquake","Flamethrower","Ice Beam"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"BrightPowder","moves":["Double-Edge","Rock Tomb","Thunderbolt","Surf"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Bright Powder","moves":["Double-Edge","Rock Tomb","Thunderbolt","Surf"],"tiers":["FCT4","FCT5"]},
   },
   "Teddiursa":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"Chesto Berry","moves":["Secret Power","Fake Tears","Faint Attack","Rest"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"Chesto Berry","moves":["Secret Power","Fake Tears","Feint Attack","Rest"],"tiers":["FCT0"]},
   },
   "Tentacool":{
-    "Set 1": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":168,"sd":0,"sp":0},"nature":"Hardy","item":"Pecha Berry","moves":["BubbleBeam","Acid","Barrier","Wrap"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":168,"sd":0,"sp":0},"nature":"Hardy","item":"Pecha Berry","moves":["Bubble Beam","Acid","Barrier","Wrap"],"tiers":["FCT0"]},
   },
   "Tentacruel":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Impish","item":"Persim Berry","moves":["Sludge Bomb","Icy Wind","Barrier","Confuse Ray"],"tiers":["FCT1","FCT5"]},
@@ -1437,34 +1440,34 @@ var SETDEX_E_FRONTIER = {
     "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":252,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"Scope Lens","moves":["Return","Sweet Kiss","Aerial Ace","Yawn"],"tiers":["FCT0"]},
   },
   "Torchic":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Lonely","item":"BrightPowder","moves":["Fire Spin","Quick Attack","Sand-Attack","Double Team"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Lonely","item":"Bright Powder","moves":["Fire Spin","Quick Attack","Sand Attack","Double Team"],"tiers":["FCT0"]},
   },
   "Torkoal":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Relaxed","item":"Sitrus Berry","moves":["Ember","Fire Spin","SmokeScreen","Amnesia"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Sassy","item":"White Herb","moves":["Overheat","Body Slam","SmokeScreen","Protect"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Relaxed","item":"Sitrus Berry","moves":["Ember","Fire Spin","Smokescreen","Amnesia"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":0,"sd":252,"sp":0},"nature":"Sassy","item":"White Herb","moves":["Overheat","Body Slam","Smokescreen","Protect"],"tiers":["FCT0"]},
   },
   "Totodile":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Scope Lens","moves":["Slash","Water Pulse","Screech","Icy Wind"],"tiers":["FCT0"]},
   },
   "Trapinch":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Serious","item":"Lax Incense","moves":["Toxic","Dig","Sandstorm","Sand-Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Serious","item":"Lax Incense","moves":["Toxic","Dig","Sandstorm","Sand Attack"],"tiers":["FCT0"]},
   },
   "Treecko":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Lonely","item":"Scope Lens","moves":["Bullet Seed","Aerial Ace","Quick Attack","Double Team"],"tiers":["FCT0"]},
   },
   "Tropius":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Hardy","item":"Sitrus Berry","moves":["Magical Leaf","Whirlwind","Aerial Ace","Steel Wing"],"tiers":["FCT0"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Focus Band","moves":["SolarBeam","Sunny Day","Synthesis","Body Slam"],"tiers":["FCT0"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Focus Band","moves":["Solar Beam","Sunny Day","Synthesis","Body Slam"],"tiers":["FCT0"]},
   },
   "Typhlosion":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Focus Band","moves":["Fire Blast","Sunny Day","SmokeScreen","Roar"],"tiers":["FCT1","FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Modest","item":"Focus Band","moves":["Fire Blast","Sunny Day","Smokescreen","Roar"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Hardy","item":"Scope Lens","moves":["Flamethrower","Thunder Punch","Aerial Ace","Rock Slide"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Adamant","item":"Salac Berry","moves":["Earthquake","Overheat","Endure","Reversal"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Hardy","item":"White Herb","moves":["Overheat","Thunder Punch","Earthquake","Crush Claw"],"tiers":["FCT4","FCT5"]},
   },
   "Tyranitar":{
-    "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"BrightPowder","moves":["Earthquake","Aerial Ace","Thunderbolt","Surf"],"tiers":["FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"BrightPowder","moves":["Earthquake","Rock Slide","Crunch","Thunderbolt"],"tiers":["FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Bright Powder","moves":["Earthquake","Aerial Ace","Thunderbolt","Surf"],"tiers":["FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Hardy","item":"Bright Powder","moves":["Earthquake","Rock Slide","Crunch","Thunderbolt"],"tiers":["FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Focus Band","moves":["Earthquake","Rock Slide","Counter","Dragon Dance"],"tiers":["FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Modest","item":"Quick Claw","moves":["Crunch","Ice Beam","Thunderbolt","Flamethrower"],"tiers":["FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Chesto Berry","moves":["Earthquake","Rock Slide","Dragon Dance","Rest"],"tiers":["FCT5"]},
@@ -1478,10 +1481,10 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Docile","item":"Focus Band","moves":["Mach Punch","Protect","Double Team","Facade"],"tiers":["FCT0"]},
   },
   "Umbreon":{
-    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Bold","item":"BrightPowder","moves":["Confuse Ray","Faint Attack","Double Team","Baton Pass"],"tiers":["FCT1","FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Bold","item":"Bright Powder","moves":["Confuse Ray","Feint Attack","Double Team","Baton Pass"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Leftovers","moves":["Curse","Screech","Double Team","Double-Edge"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Bold","item":"BrightPowder","moves":["Swagger","Psych Up","Attract","Shadow Ball"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Bold","item":"Leftovers","moves":["Confuse Ray","Toxic","Faint Attack","Double Team"],"tiers":["FCT4","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Bold","item":"Bright Powder","moves":["Swagger","Psych Up","Attract","Shadow Ball"],"tiers":["FCT3","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Bold","item":"Leftovers","moves":["Confuse Ray","Toxic","Feint Attack","Double Team"],"tiers":["FCT4","FCT5"]},
   },
   "Unown":{
     "Set 1": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":168,"sd":0,"sp":0},"nature":"Hardy","item":"Lax Incense","moves":["Hidden Power","---","---","---"],"tiers":["FCT0"]},
@@ -1490,7 +1493,7 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":168,"sd":0,"sp":0},"nature":"Docile","item":"Quick Claw","moves":["Mega Kick","Crunch","Aerial Ace","Counter"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Quick Claw","moves":["Double-Edge","Earthquake","Brick Break","Counter"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":168,"at":0,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Modest","item":"Lum Berry","moves":["Fire Punch","Thunder Punch","Ice Punch","Crunch"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"BrightPowder","moves":["Double-Edge","Earthquake","Rock Slide","Aerial Ace"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Bright Powder","moves":["Double-Edge","Earthquake","Rock Slide","Aerial Ace"],"tiers":["FCT4","FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Choice Band","moves":["Mega Kick","Aerial Ace","Rock Slide","Brick Break"],"tiers":["FCT5"]},
     "Set 6": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Focus Band","moves":["Hyper Beam","Yawn","Swords Dance","Double Team"],"tiers":["FCT5"]},
     "Set 7": {"level":100,"evs":{"hp":168,"at":168,"df":0,"sa":168,"sd":0,"sp":0},"nature":"Docile","item":"Quick Claw","moves":["Facade","Earthquake","Crunch","Bulk Up"],"tiers":["FCT5"]},
@@ -1511,9 +1514,9 @@ var SETDEX_E_FRONTIER = {
   },
   "Venusaur":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Chesto Berry","moves":["Giga Drain","Sunny Day","Synthesis","Sleep Powder"],"tiers":["FCT1","FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Bold","item":"BrightPowder","moves":["Leech Seed","Giga Drain","Double Team","Light Screen"],"tiers":["FCT2","FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Bold","item":"Bright Powder","moves":["Leech Seed","Giga Drain","Double Team","Light Screen"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":168,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Adamant","item":"Scope Lens","moves":["Double-Edge","Sludge Bomb","Earthquake","Sleep Powder"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":168,"sp":0},"nature":"Docile","item":"Lum Berry","moves":["SolarBeam","Sludge Bomb","Sunny Day","Earthquake"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":168,"sp":0},"nature":"Docile","item":"Lum Berry","moves":["Solar Beam","Sludge Bomb","Sunny Day","Earthquake"],"tiers":["FCT4","FCT5"]},
   },
   "Vibrava":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Quirky","item":"Cheri Berry","moves":["Dragon Breath","Dig","Screech","Rock Tomb"],"tiers":["FCT0"]},
@@ -1521,8 +1524,8 @@ var SETDEX_E_FRONTIER = {
   "Victreebel":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Quiet","item":"Sitrus Berry","moves":["Giga Drain","Sleep Powder","Sweet Scent","Synthesis"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Serious","item":"Leftovers","moves":["Giga Drain","Sludge Bomb","Sleep Powder","Attract"],"tiers":["FCT2","FCT5"]},
-    "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"BrightPowder","moves":["Stun Spore","Ingrain","Giga Drain","Sludge Bomb"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"BrightPowder","moves":["Giga Drain","Double-Edge","Sludge Bomb","Synthesis"],"tiers":["FCT4","FCT5"]},
+    "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Bright Powder","moves":["Stun Spore","Ingrain","Giga Drain","Sludge Bomb"],"tiers":["FCT3","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Bright Powder","moves":["Giga Drain","Double-Edge","Sludge Bomb","Synthesis"],"tiers":["FCT4","FCT5"]},
   },
   "Vigoroth":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Lonely","item":"Focus Band","moves":["Slash","Counter","Encore","Uproar"],"tiers":["FCT0"]},
@@ -1530,9 +1533,9 @@ var SETDEX_E_FRONTIER = {
   },
   "Vileplume":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Impish","item":"Persim Berry","moves":["Sludge Bomb","Petal Dance","Moonlight","Aromatherapy"],"tiers":["FCT1","FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Bold","item":"BrightPowder","moves":["Ingrain","Double Team","Toxic","Giga Drain"],"tiers":["FCT2","FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Bold","item":"Bright Powder","moves":["Ingrain","Double Team","Toxic","Giga Drain"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Leftovers","moves":["Attract","Stun Spore","Sludge Bomb","Giga Drain"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Quick Claw","moves":["SolarBeam","Sludge Bomb","Sunny Day","Synthesis"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Quick Claw","moves":["Solar Beam","Sludge Bomb","Sunny Day","Synthesis"],"tiers":["FCT4","FCT5"]},
   },
   "Volbeat":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Quirky","item":"Liechi Berry","moves":["Silver Wind","Confuse Ray","Quick Attack","Helping Hand"],"tiers":["FCT0"]},
@@ -1558,7 +1561,7 @@ var SETDEX_E_FRONTIER = {
     "Set 1": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Quiet","item":"Leftovers","moves":["Blizzard","Hail","Yawn","Protect"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Quirky","item":"Focus Band","moves":["Earthquake","Ice Beam","Curse","Double Team"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":168,"at":0,"df":168,"sa":0,"sd":168,"sp":0},"nature":"Hardy","item":"Quick Claw","moves":["Sheer Cold","Fissure","Surf","Attract"],"tiers":["FCT3","FCT5"]},
-    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"BrightPowder","moves":["Surf","Ice Beam","Earthquake","Sheer Cold"],"tiers":["FCT4","FCT5"]},
+    "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Bright Powder","moves":["Surf","Ice Beam","Earthquake","Sheer Cold"],"tiers":["FCT4","FCT5"]},
   },
   "Wartortle":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":0,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Focus Band","moves":["Water Pulse","Bite","Mud-Slap","Yawn"],"tiers":["FCT0"]},
@@ -1572,7 +1575,7 @@ var SETDEX_E_FRONTIER = {
     "Set 2": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Quirky","item":"Scope Lens","moves":["Sludge Bomb","Razor Leaf","Sleep Powder","Reflect"],"tiers":["FCT0"]},
   },
   "Weezing":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"BrightPowder","moves":["Sludge Bomb","Will-O-Wisp","Shadow Ball","SmokeScreen"],"tiers":["FCT1","FCT5"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Bright Powder","moves":["Sludge Bomb","Will-O-Wisp","Shadow Ball","Smokescreen"],"tiers":["FCT1","FCT5"]},
     "Set 2": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Sitrus Berry","moves":["Memento","Sludge Bomb","Facade","Destiny Bond"],"tiers":["FCT2","FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quirky","item":"Focus Band","moves":["Explosion","Sludge Bomb","Flamethrower","Thunderbolt"],"tiers":["FCT3","FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Adamant","item":"Focus Band","moves":["Explosion","Sludge Bomb","Frustration","Shadow Ball"],"tiers":["FCT4","FCT5"]},
@@ -1584,7 +1587,7 @@ var SETDEX_E_FRONTIER = {
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Quiet","item":"Quick Claw","moves":["Fissure","Surf","Earthquake","Ice Beam"],"tiers":["FCT4","FCT5"]},
   },
   "Whismur":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"Cheri Berry","moves":["Uproar","Swagger","Body Slam","SmellingSalt"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Relaxed","item":"Cheri Berry","moves":["Uproar","Swagger","Body Slam","Smelling Salts"],"tiers":["FCT0"]},
   },
   "Wigglytuff":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":252,"sa":0,"sd":252,"sp":0},"nature":"Relaxed","item":"Silk Scarf","moves":["Sing","Disable","Wish","Secret Power"],"tiers":["FCT0"]},
@@ -1621,14 +1624,14 @@ var SETDEX_E_FRONTIER = {
   },
   "Zapdos":{
     "Set 1": {"level":100,"evs":{"hp":0,"at":0,"df":0,"sa":252,"sd":0,"sp":252},"nature":"Docile","item":"Lum Berry","moves":["Thunderbolt","Drill Peck","Thunder Wave","Roar"],"tiers":["FCT5"]},
-    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Docile","item":"BrightPowder","moves":["Thunder","Rain Dance","Drill Peck","Double Team"],"tiers":["FCT5"]},
+    "Set 2": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":0,"sd":0,"sp":252},"nature":"Docile","item":"Bright Powder","moves":["Thunder","Rain Dance","Drill Peck","Double Team"],"tiers":["FCT5"]},
     "Set 3": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Docile","item":"Leftovers","moves":["Thunderbolt","Drill Peck","Thunder Wave","Substitute"],"tiers":["FCT5"]},
     "Set 4": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Shell Bell","moves":["Thunderbolt","Drill Peck","Thunder Wave","Light Screen"],"tiers":["FCT5"]},
     "Set 5": {"level":100,"evs":{"hp":0,"at":252,"df":0,"sa":252,"sd":0,"sp":0},"nature":"Docile","item":"Scope Lens","moves":["Thunderbolt","Drill Peck","Double-Edge","Thunder Wave"],"tiers":["FCT5"]},
     "Set 6": {"level":100,"evs":{"hp":0,"at":168,"df":0,"sa":168,"sd":0,"sp":168},"nature":"Docile","item":"Lum Berry","moves":["Thunder","Drill Peck","Rain Dance","Double-Edge"],"tiers":["FCT5"]},
   },
   "Zigzagoon":{
-    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Timid","item":"Silk Scarf","moves":["Headbutt","Pin Missile","Swift","Sand-Attack"],"tiers":["FCT0"]},
+    "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Timid","item":"Silk Scarf","moves":["Headbutt","Pin Missile","Swift","Sand Attack"],"tiers":["FCT0"]},
   },
   "Zubat":{
     "Set 1": {"level":100,"evs":{"hp":252,"at":252,"df":0,"sa":0,"sd":0,"sp":0},"nature":"Sassy","item":"Cheri Berry","moves":["Poison Fang","Whirlwind","Confuse Ray","Aerial Ace"],"tiers":["FCT0"]},

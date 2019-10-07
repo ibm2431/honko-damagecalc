@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,8 +10,10 @@
 </head>
 
 <body>
+<div class="frontier-overlay">
 
 <div class="frontier-wrapper">
+
 
 <div class="wrapper frontier-calculator">
 
@@ -34,7 +36,7 @@
         </span>
         <span aria-labelledby="selectModeInstruction" role="radiogroup" title="Select the calculator's mode of function.">
             <span class="visually-hidden" id="selectModeInstruction">Select the calculator's mode of function.</span>
-            <input class="mode visually-hidden" type="radio" name="mode" id="one-vs-all-points" /><label class="btn btn-xwide btn-right right" for="one-vs-all-points">One vs All (Points)</label>
+            <input class="mode visually-hidden" type="radio" name="mode" id="three-vs-all" /><label class="btn btn-xwide btn-right right" for="three-vs-all">Three vs All</label>
             <input class="mode visually-hidden" type="radio" name="mode" id="all-vs-one" /><label class="btn btn-wide btn-mid right" for="all-vs-one">All vs One</label>
             <input class="mode visually-hidden" type="radio" name="mode" id="one-vs-all" /><label class="btn btn-wide btn-mid right" for="one-vs-all">One vs All</label>
             <input class="mode visually-hidden" type="radio" name="mode" id="one-vs-one" checked="checked" /><label class="btn btn-xwide btn-left right" for="one-vs-one">Three vs One</label>
@@ -196,9 +198,9 @@
         <div class="small-text"><span id="damageValues">(If you see this message for more than a few seconds, try enabling JavaScript.)</span>
         </div>
     </div>
-    
+
     <div class="pokeL">
-    
+
     <div aria-label="Pok&eacute;mon 1" class="panel" role="region">
         <fieldset class="poke-info" id="p1">
             <legend align="center">Pok&eacute;mon 1</legend>
@@ -2135,6 +2137,7 @@
 
 </div>
 
+</div>
 </body>
 
 </html>

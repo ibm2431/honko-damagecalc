@@ -194,6 +194,7 @@ function calculate() {
                     }
                   }
                   else if ((_.contains(highestKO, "chance to OHKO")) || (_.contains(highestKO, "guaranteed 2HKO"))) {
+                    // Being able to two-shot them is nice.
                     points = points + 1;
                   }
                   else {
@@ -205,9 +206,9 @@ function calculate() {
                       // We take at least 3 hits to kill them, and they have Double Team
                       points = points - 1;
                     }
-                    if (!((_.contains(highestKO, "chance to 2HKO")) || (_.contains(highestKO, "guaranteed 3HKO")) ||
-                          (_.contains(highestKO, "chance to 3HKO")) || (_.contains(highestKO, "guaranteed 4HKO")))) {
-                      // We take 5 or more hits to kill them - its a really bad matchup
+                    if (!((_.contains(highestKO, "chance to 3HKO")) || (_.contains(highestKO, "guaranteed 4HKO")) ||
+                          (_.contains(highestKO, "chance to 4HKO")) || (_.contains(highestKO, "guaranteed 5HKO")))) {
+                      // We take 4 or more hits to kill them - its a really bad matchup
                       points = points - 1;
                       
                       if (defenderHasDT && (!attackerHasBypassAccuracy)) {
@@ -229,9 +230,9 @@ function calculate() {
                       // They take at least three hits to kill us, and we have a recovery move.
                       points = points + 0.5;
                     }
-                    if (!((_.contains(highestKO, "chance to 3HKO")) || (_.contains(highestKO, "guaranteed 3HKO")) ||
-                          (_.contains(highestKO, "chance to 4HKO")) || (_.contains(highestKO, "guaranteed 4HKO")))) {
-                      // They take at least five hits to kill us. This is good.
+                    if (!((_.contains(highestKO, "chance to 4HKO")) || (_.contains(highestKO, "guaranteed 4HKO")) ||
+                          (_.contains(highestKO, "chance to 5HKO")) || (_.contains(highestKO, "guaranteed 5HKO")))) {
+                      // They take at least four hits to kill us. This is good.
                       points = points + 1;
                     }
                     
@@ -471,9 +472,9 @@ function calculatePointTable() {
               // They could end up sweeping our entire team if we stick to this matchup.
               vsPoints = vsPoints - 2;
             }
-            if (!((_.contains(ourHighestKO, "chance to 2HKO")) || (_.contains(ourHighestKO, "guaranteed 3HKO")) ||
-                  (_.contains(ourHighestKO, "chance to 3HKO")) || (_.contains(ourHighestKO, "guaranteed 4HKO")))) {
-              // We take 5 or more hits to kill them - its a really bad matchup
+            if (!((_.contains(ourHighestKO, "chance to 3HKO")) || (_.contains(ourHighestKO, "guaranteed 4HKO")) ||
+                  (_.contains(ourHighestKO, "chance to 4HKO")) || (_.contains(ourHighestKO, "guaranteed 5HKO")))) {
+              // We take 4 or more hits to kill them - its a really bad matchup
               vsPoints = vsPoints - 1;
               
               if (them.HasDT && (!us.BypassAccuracy)) {
@@ -522,13 +523,13 @@ function calculatePointTable() {
               // Since they take at least three hits to kill us, we might be able to do a little setup against them.
               vsPoints = vsPoints + 0.5;
             }
-            if (!((_.contains(theirHighestKO, "chance to 3HKO")) || (_.contains(theirHighestKO, "guaranteed 3HKO")) ||
-                  (_.contains(theirHighestKO, "chance to 4HKO")) || (_.contains(theirHighestKO, "guaranteed 4HKO")))) {
-              // They take at least five hits to kill us. This is good.
+            if (!((_.contains(theirHighestKO, "chance to 4HKO")) || (_.contains(theirHighestKO, "guaranteed 4HKO")) ||
+                  (_.contains(theirHighestKO, "chance to 5HKO")) || (_.contains(theirHighestKO, "guaranteed 5HKO")))) {
+              // They take at least four hits to kill us. This is good.
               vsPoints = vsPoints + 1;
               
               if (us.HaveSetup && !them.HasRoar) {
-                // They take at least five hits to kill us. We have setup. Sweep their whole team.
+                // They take at least four hits to kill us. We have setup. Sweep their whole team.
                 vsPoints = vsPoints + 2.5;
               }
             }
